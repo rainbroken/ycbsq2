@@ -1,0 +1,37 @@
+./objects/hk32f0xxa_eval.o: \
+  ..\..\..\..\..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval.c \
+  ..\..\..\..\..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval.h \
+  ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f04axxA.h \
+  ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cm0.h \
+  ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmInstr.h \
+  ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmFunc.h \
+  ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h \
+  ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f0xxa_def.h \
+  ..\inc\hk32f0xxa_conf.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_adc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dma.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dbgmcu.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_crc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_exti.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_flash.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_gpio.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_syscfg.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_i2c.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_iwdg.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_pwr.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rcc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rtc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_spi.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_tim.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_divsqrt.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_usart.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_wwdg.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_misc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_aes.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_hash.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_trng.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_emacc.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h \
+  ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h

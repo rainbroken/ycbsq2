@@ -1,0 +1,2161 @@
+Dependencies for Project 'hk32_project', Target 'hk32_project': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (startup_stm32f103xb.s)(0x693D977F)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o hk32_project/startup_stm32f103xb.o)
+F (.\hk32_project\hk32_project.map)(0x69434B8F)()
+F (../Core/Src/main.c)(0x693DB2FC)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/main.o -MMD)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\dma.h)(0x693D9568)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\gpio.h)(0x6939A440)
+I (Task\main_task.hpp)(0x693A12C6)
+I (System\variables.hpp)(0x693E9F6D)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+F (../Core/Src/gpio.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/gpio.o -MMD)
+I (..\Core\Inc\gpio.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/adc.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/adc.o -MMD)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/can.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/can.o -MMD)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/dma.c)(0x693D9568)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/dma.o -MMD)
+I (..\Core\Inc\dma.h)(0x693D9568)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/rtc.c)(0x693D9568)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/rtc.o -MMD)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/tim.c)(0x693D9568)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/tim.o -MMD)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/usart.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/usart.o -MMD)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/stm32f1xx_it.c)(0x693D9569)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_it.o -MMD)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_it.h)(0x693D9569)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_msp.o -MMD)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_gpio_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_adc.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_adc_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_rcc.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_rcc_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_gpio.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_dma.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_cortex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_pwr.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_flash.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_flash_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_exti.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_can.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_rtc.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_rtc_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_tim.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_tim_ex.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x66DE86A8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/stm32f1xx_hal_uart.o -MMD)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (../Core/Src/system_stm32f1xx.c)(0x6939A440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/system_stm32f1xx.o -MMD)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (.\Algorithm\algorithm.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/algorithm.o -MMD)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Algorithm\string_algorithm.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/string_algorithm.o -MMD)
+I (Algorithm\string_algorithm.hpp)(0x6939A445)
+F (.\Algorithm\ring_queue.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/ring_queue.o -MMD)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+F (.\Application\batVolt.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/batvolt.o -MMD)
+I (Application\batVolt.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Application\A7680C.cpp)(0x69421C6F)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/a7680c.o -MMD)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+I (Application\handler.hpp)(0x693E1D77)
+F (.\Application\handler.cpp)(0x693DB253)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/handler.o -MMD)
+I (Application\handler.hpp)(0x693E1D77)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Application\bms.cpp)(0x693E273E)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bms.o -MMD)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Application\periph_control.cpp)(0x693D8985)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/periph_control.o -MMD)
+I (Application\periph_control.hpp)(0x693D893B)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Application\rgb.cpp)(0x693FC28B)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/rgb.o -MMD)
+I (Application\rgb.hpp)(0x693FC28B)
+I (Bsp\bsp_rgb.hpp)(0x693E265A)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Application\low_power.cpp)(0x693E2A09)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/low_power.o -MMD)
+I (Application\low_power.hpp)(0x693E2A51)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+I (..\Core\Inc\dma.h)(0x693D9568)
+I (..\Core\Inc\gpio.h)(0x6939A440)
+F (.\Bsp\bsp.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp.o -MMD)
+I (Bsp\bsp.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+I (Bsp\bsp_buzzer.hpp)(0x6939A445)
+I (Bsp\bsp_key.hpp)(0x6939A445)
+I (Bsp\bsp_rgb.hpp)(0x693E265A)
+F (.\Bsp\bsp_adc.cpp)(0x693D8969)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_adc.o -MMD)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Bsp\bsp_buzzer.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_buzzer.o -MMD)
+I (Bsp\bsp_buzzer.hpp)(0x6939A445)
+I (Bsp\bsp.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+I (Bsp\bsp_key.hpp)(0x6939A445)
+I (Bsp\bsp_rgb.hpp)(0x693E265A)
+F (.\Bsp\bsp_can.cpp)(0x693E2726)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_can.o -MMD)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Bsp\bsp_key.cpp)(0x6939A445)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_key.o -MMD)
+I (Bsp\bsp_key.hpp)(0x6939A445)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Bsp\bsp_rgb.cpp)(0x693E26DD)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_rgb.o -MMD)
+I (Bsp\bsp_rgb.hpp)(0x693E265A)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Bsp\bsp_usart.cpp)(0x693E279D)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_usart.o -MMD)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Bsp\bsp_rtc.cpp)(0x693D9EDD)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bsp_rtc.o -MMD)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+F (.\System\variables.cpp)(0x693DB065)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/variables.o -MMD)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\System\callback.cpp)(0x693E9F6D)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/callback.o -MMD)
+I (System\callback.hpp)(0x6939A446)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\System\MillisTaskManager.cpp)(0x693D60F4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/millistaskmanager.o -MMD)
+I (System\MillisTaskManager.h)(0x693D60F3)
+F (.\System\System.cpp)(0x6939BA28)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/system.o -MMD)
+I (System\System.hpp)(0x6939BA7A)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\System\state_machine.cpp)(0x6940D25F)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/state_machine.o -MMD)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Task\A7680_Task.cpp)(0x6940AEB4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/a7680_task.o -MMD)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Task\main_task.cpp)(0x693E1EC1)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/main_task.o -MMD)
+I (Task\main_task.hpp)(0x693A12C6)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\AllTasks.hpp)(0x693DAE49)
+F (.\Task\bms_task.cpp)(0x693FC482)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/bms_task.o -MMD)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\main_task.hpp)(0x693A12C6)
+F (.\Task\rgb_task.cpp)(0x6939B863)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/rgb_task.o -MMD)
+I (Task\AllTasks.hpp)(0x693DAE49)
+F (.\Task\stateMachine_Task.cpp)(0x693DAF7C)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./Algorithm -I ./Application -I ./Bsp -I ./System -I ./Task-I./RTE/_hk32_project-ID:/Users/1354075164/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-ID:/Users/1354075164/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/1.1.0/Device/Include-D__UVISION_VERSION="541" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F1xx-o hk32_project/statemachine_task.o -MMD)
+I (Task\AllTasks.hpp)(0x693DAE49)
+I (System\variables.hpp)(0x693E9F6D)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66DE86A8)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x693D9569)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x66DE86A8)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x66DE869B)
+I (..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rtc_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66DE86A8)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x66DE86A8)
+I (..\Core\Inc\adc.h)(0x6939A440)
+I (..\Core\Inc\main.h)(0x693E284C)
+I (..\Core\Inc\can.h)(0x6939A440)
+I (..\Core\Inc\tim.h)(0x693D9568)
+I (..\Core\Inc\usart.h)(0x6939A440)
+I (..\Core\Inc\rtc.h)(0x693D9568)
+I (Algorithm\algorithm.hpp)(0x6939A445)
+I (Application\batVolt.hpp)(0x6939A445)
+I (Application\periph_control.hpp)(0x693D893B)
+I (Application\low_power.hpp)(0x693E2A51)
+I (Bsp\bsp_adc.hpp)(0x6939A445)
+I (Bsp\bsp_can.hpp)(0x693E272D)
+I (Bsp\bsp_usart.hpp)(0x693E2787)
+I (Bsp\bsp_rtc.hpp)(0x693D9B71)
+I (Application\A7680C.hpp)(0x694123C6)
+I (Algorithm\ring_queue.hpp)(0x693E1EFB)
+I (Application\bms.hpp)(0x693E3C7A)
+I (Application\rgb.hpp)(0x693FC28B)
+I (System\MillisTaskManager.h)(0x693D60F3)
+I (System\System.hpp)(0x6939BA7A)
+I (System\state_machine.hpp)(0x693E5CFB)
+I (Task\main_task.hpp)(0x693A12C6)
