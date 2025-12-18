@@ -1,39 +1,36 @@
-.\ycbsq2\hk32f0xxa_dma.o: ..\Libraries\HK32F0xxA_StdPeriphDriver\src\hk32f0xxa_dma.c
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dma.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\CM0\Core\core_cm0.h
-.\ycbsq2\hk32f0xxa_dma.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\CM0\Core\core_cmInstr.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\CM0\Core\core_cmFunc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\HK32F0xxA\Include\hk32f0xxa_def.h
-.\ycbsq2\hk32f0xxa_dma.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Core\Inc\hk32f0xxa_conf.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_adc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dma.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dbgmcu.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_crc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_exti.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_flash.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_gpio.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_syscfg.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_i2c.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_iwdg.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_pwr.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rcc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rtc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_spi.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_tim.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_divsqrt.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_usart.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_wwdg.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_misc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_aes.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_hash.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_trng.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_emacc.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h
-.\ycbsq2\hk32f0xxa_dma.o: ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h
+./ycbsq2/hk32f0xxa_dma.o: \
+  ..\Libraries\HK32F0xxA_StdPeriphDriver\src\hk32f0xxa_dma.c \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dma.h \
+  ..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h \
+  ..\Drivers\CMSIS\CM0\Core\core_cm0.h \
+  ..\Drivers\CMSIS\CM0\Core\core_cmInstr.h \
+  ..\Drivers\CMSIS\CM0\Core\core_cmFunc.h \
+  ..\Drivers\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h \
+  ..\Drivers\CMSIS\HK32F0xxA\Include\hk32f0xxa_def.h \
+  ..\Core\Inc\hk32f0xxa_conf.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_adc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_dbgmcu.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_crc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_exti.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_flash.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_gpio.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_syscfg.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_i2c.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_iwdg.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_pwr.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rcc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_rtc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_spi.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_tim.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_divsqrt.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_usart.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_wwdg.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_misc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_aes.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_hash.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_trng.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_emacc.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h \
+  ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h

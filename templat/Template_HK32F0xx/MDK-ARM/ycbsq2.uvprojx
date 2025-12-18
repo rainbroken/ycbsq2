@@ -10,9 +10,9 @@
       <TargetName>Target_1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pArmCC>5060960::V5.06 update 7 (build 960)::.\ARMCC</pArmCC>
-      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
-      <uAC6>0</uAC6>
+      <pArmCC>6220000::V6.22::ARMCLANG</pArmCC>
+      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
+      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>HK32F04ARBTxA</Device>
@@ -191,7 +191,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -324,7 +324,7 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>2</wLevel>
+            <wLevel>3</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,HK32F04AxxA,USE_HK32F0xxA_EVAL</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Drivers\CMSIS\HK32F0xxA\Include;..\Drivers\HK32F0xxA_StdPeriphDriver\inc;..\Drivers\CMSIS\CM0\Core;..\Core\Inc;..\Boards\Board_HK32F0xxA_EVAL</IncludePath>
+              <IncludePath>..\Drivers\CMSIS\HK32F0xxA\Include;..\Drivers\HK32F0xxA_StdPeriphDriver\inc;..\Drivers\CMSIS\CM0\Core;..\Core\Inc;..\Boards\Board_HK32F0xxA_EVAL;.\User\Algorithm;.\User\Application;.\User\Bsp;.\User\System;.\User\Task</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -586,19 +586,169 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Algorithm</GroupName>
+          <GroupName>User/Algorithm</GroupName>
+          <Files>
+            <File>
+              <FileName>algorithm.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Algorithm\algorithm.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ring_queue.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Algorithm\ring_queue.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>string_algorithm.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Algorithm\string_algorithm.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
-          <GroupName>Application</GroupName>
+          <GroupName>User/Application</GroupName>
+          <Files>
+            <File>
+              <FileName>A7680C.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\A7680C.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>batVolt.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\batVolt.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bms.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\bms.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>handler.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\handler.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>low_power.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\low_power.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>periph_control.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\periph_control.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>rgb.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Application\rgb.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
-          <GroupName>Bsp</GroupName>
+          <GroupName>User/Bsp</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_adc.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_adc.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_buzzer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_buzzer.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_can.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_can.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_key.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_rgb.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_rgb.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_rtc.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_rtc.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_usart.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Bsp\bsp_usart.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
-          <GroupName>System</GroupName>
+          <GroupName>User/System</GroupName>
+          <Files>
+            <File>
+              <FileName>callback.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\callback.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>MillisTaskManager.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\MillisTaskManager.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>state_machine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\state_machine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>System.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\System.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>variables.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\variables.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
-          <GroupName>Task</GroupName>
+          <GroupName>User/Task</GroupName>
+          <Files>
+            <File>
+              <FileName>A7680_Task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Task\A7680_Task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>bms_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Task\bms_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>main_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Task\main_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>rgb_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Task\rgb_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>stateMachine_Task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\Task\stateMachine_Task.cpp</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
