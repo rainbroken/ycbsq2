@@ -11,7 +11,7 @@
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pArmCC>5060960::V5.06 update 7 (build 960)::.\ARMCC</pArmCC>
-      <pCCUsed>6220000::V6.22::ARMCLANG</pCCUsed>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -49,11 +49,11 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\</OutputDirectory>
+          <OutputDirectory>.\ycbsq2\</OutputDirectory>
           <OutputName>ycbsq2</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\</ListingPath>
@@ -135,11 +135,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -191,7 +191,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -315,7 +315,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>1</Optim>
+            <Optim>2</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,HK32F04AxxA,USE_HK32F0xxA_EVAL</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Drivers\CMSIS\HK32F0xxA\Include;..\Drivers\CMSIS\CM0\Core;..\Drivers\HK32F0xxA_StdPeriphDriver\inc;..\Boards\Board_HK32F0xxA_EVAL;..\Core\Inc</IncludePath>
+              <IncludePath>..\Drivers\CMSIS\HK32F0xxA\Include;..\Drivers\HK32F0xxA_StdPeriphDriver\inc;..\Drivers\CMSIS\CM0\Core;..\Core\Inc;..\Boards\Board_HK32F0xxA_EVAL</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -402,6 +402,36 @@
               <FileName>system_hk32f0xxa.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\system_hk32f0xxa.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Application/Boards</GroupName>
+          <Files>
+            <File>
+              <FileName>hk32f0xxa_eval.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval.c</FilePath>
+            </File>
+            <File>
+              <FileName>hk32f0xxa_eval_i2c_ee.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval_i2c_ee.c</FilePath>
+            </File>
+            <File>
+              <FileName>hk32f0xxa_eval_i2c_tsensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval_i2c_tsensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>hk32f0xxa_eval_spi_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval_spi_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>hk32f0xxa_eval_spi_sd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Boards\Board_HK32F0xxA_EVAL\hk32f0xxa_eval_spi_sd.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -549,34 +579,9 @@
           <GroupName>Drivers/CMSIS</GroupName>
           <Files>
             <File>
-              <FileName>startup_hk32asafex.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32asafex.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup_hk32aspinx.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32aspinx.s</FilePath>
-            </File>
-            <File>
               <FileName>startup_hk32f04axxa.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04axxa.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup_hk32f030xxa.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f030xxa.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup_hk32f031xxa.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f031xxa.s</FilePath>
-            </File>
-            <File>
-              <FileName>startup_hk32f072x.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f072x.s</FilePath>
             </File>
           </Files>
         </Group>

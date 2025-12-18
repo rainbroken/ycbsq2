@@ -171,9 +171,9 @@ ARM Macro Assembler    Page 3
 WEAK]
   108 00000000                 IMPORT           __main
   109 00000000                 IMPORT           SystemInit
-  110 00000000 4807            LDR              R0, =SystemInit
+  110 00000000 4804            LDR              R0, =SystemInit
   111 00000002 4780            BLX              R0
-  112 00000004 4807            LDR              R0, =__main
+  112 00000004 4804            LDR              R0, =__main
   113 00000006 4700            BX               R0
   114 00000008                 ENDP
   115 00000008         
@@ -340,33 +340,22 @@ ARM Macro Assembler    Page 6
   215 00000014         ;*******************************************************
                        ************************
   216 00000014                 IF               :DEF:__MICROLIB
-  223 00000014         
-  224 00000014                 IMPORT           __use_two_region_memory
-  225 00000014                 EXPORT           __user_initial_stackheap
-  226 00000014         
-  227 00000014         __user_initial_stackheap
-  228 00000014         
-  229 00000014 4804            LDR              R0, =  Heap_Mem
-  230 00000016 4905            LDR              R1, =(Stack_Mem + Stack_Size)
-  231 00000018 4A05            LDR              R2, = (Heap_Mem +  Heap_Size)
-  232 0000001A 4B06            LDR              R3, = Stack_Mem
-  233 0000001C 4770            BX               LR
-  234 0000001E         
-  235 0000001E 00 00           ALIGN
-  236 00000020         
-  237 00000020                 ENDIF
-  238 00000020         
-  239 00000020                 END
+  217 00000014         
+  218 00000014                 EXPORT           __initial_sp
+  219 00000014                 EXPORT           __heap_base
+  220 00000014                 EXPORT           __heap_limit
+  221 00000014         
+  222 00000014                 ELSE
+  237                          ENDIF
+  238 00000014         
+  239 00000014                 END
               00000000 
-              00000000 
-              00000000 
-              00000400 
-              00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=.\startup_hk32f04axxa.d -o.\startup_hk32f04axxa.o --predefine="__U
-VISION_VERSION SETA 541" --list=.\startup_hk32f04axxa.lst ..\Drivers\CMSIS\HK32
-F0xxA\Source\ARM\startup_hk32f04axxa.s
+ork --depend=.\ycbsq2\startup_hk32f04axxa.d -o.\ycbsq2\startup_hk32f04axxa.o --
+predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 541" --list=.
+\startup_hk32f04axxa.lst ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
+xxa.s
 
 
 
@@ -389,11 +378,8 @@ Symbol: Stack_Mem
       At line 24 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
    Uses
-      At line 230 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-      At line 232 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-
+      None
+Comment: Stack_Mem unused
 __initial_sp 00000400
 
 Symbol: __initial_sp
@@ -403,7 +389,9 @@ xxa.s
    Uses
       At line 49 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
-Comment: __initial_sp used once
+      At line 218 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
+axxa.s
+
 3 symbols
 
 
@@ -427,11 +415,8 @@ Symbol: Heap_Mem
       At line 36 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
    Uses
-      At line 229 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-      At line 231 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-
+      None
+Comment: Heap_Mem unused
 __heap_base 00000000
 
 Symbol: __heap_base
@@ -439,8 +424,9 @@ Symbol: __heap_base
       At line 35 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
    Uses
-      None
-Comment: __heap_base unused
+      At line 219 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
+axxa.s
+Comment: __heap_base used once
 __heap_limit 00000200
 
 Symbol: __heap_limit
@@ -448,8 +434,9 @@ Symbol: __heap_limit
       At line 37 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
    Uses
-      None
-Comment: __heap_limit unused
+      At line 220 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
+axxa.s
+Comment: __heap_limit used once
 4 symbols
 
 
@@ -1019,17 +1006,7 @@ Relocatable symbols
 
 axxa.s
 
-__user_initial_stackheap 00000014
-
-Symbol: __user_initial_stackheap
-   Definitions
-      At line 227 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-   Uses
-      At line 225 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-Comment: __user_initial_stackheap used once
-41 symbols
+40 symbols
 
 
 
@@ -1045,9 +1022,7 @@ xxa.s
    Uses
       At line 36 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
-      At line 231 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-
+Comment: Heap_Size used once
 Stack_Size 00000400
 
 Symbol: Stack_Size
@@ -1057,9 +1032,7 @@ xxa.s
    Uses
       At line 24 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04a
 xxa.s
-      At line 230 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-
+Comment: Stack_Size used once
 __Vectors_Size 000000C0
 
 Symbol: __Vectors_Size
@@ -1097,14 +1070,5 @@ axxa.s
       At line 112 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
 axxa.s
 Comment: __main used once
-__use_two_region_memory 00000000
-
-Symbol: __use_two_region_memory
-   Definitions
-      At line 224 in file ..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04
-axxa.s
-   Uses
-      None
-Comment: __use_two_region_memory unused
-3 symbols
-392 symbols in table
+2 symbols
+389 symbols in table

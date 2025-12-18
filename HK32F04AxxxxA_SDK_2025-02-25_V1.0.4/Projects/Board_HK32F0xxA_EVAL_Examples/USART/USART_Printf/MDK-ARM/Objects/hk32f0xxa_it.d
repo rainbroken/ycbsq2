@@ -1,10 +1,10 @@
 .\objects\hk32f0xxa_it.o: ..\src\hk32f0xxa_it.c
 .\objects\hk32f0xxa_it.o: ..\inc\hk32f0xxa_it.h
 .\objects\hk32f0xxa_it.o: ..\inc\main.h
-.\objects\hk32f0xxa_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hk32f0xxa_it.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\hk32f0xxa_it.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f04axxA.h
 .\objects\hk32f0xxa_it.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cm0.h
-.\objects\hk32f0xxa_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hk32f0xxa_it.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\hk32f0xxa_it.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmInstr.h
 .\objects\hk32f0xxa_it.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmFunc.h
 .\objects\hk32f0xxa_it.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h

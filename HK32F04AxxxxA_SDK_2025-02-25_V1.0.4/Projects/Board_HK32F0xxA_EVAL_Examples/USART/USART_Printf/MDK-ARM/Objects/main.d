@@ -1,9 +1,9 @@
 .\objects\main.o: ..\src\main.c
 .\objects\main.o: ..\inc\main.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f04axxA.h
 .\objects\main.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cm0.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmInstr.h
 .\objects\main.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmFunc.h
 .\objects\main.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h

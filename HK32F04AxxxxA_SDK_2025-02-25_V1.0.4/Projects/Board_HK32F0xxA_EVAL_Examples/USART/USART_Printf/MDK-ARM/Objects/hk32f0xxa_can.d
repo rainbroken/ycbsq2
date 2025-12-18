@@ -2,12 +2,12 @@
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f04axxA.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cm0.h
-.\objects\hk32f0xxa_can.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hk32f0xxa_can.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmInstr.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\CM0\Core\core_cmFunc.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\system_hk32f0xxa.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f0xxa_def.h
-.\objects\hk32f0xxa_can.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\hk32f0xxa_can.o: C:\Users\rain\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\hk32f0xxa_can.o: ..\inc\hk32f0xxa_conf.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_adc.h
 .\objects\hk32f0xxa_can.o: ..\..\..\..\..\Libraries\CMSIS\HK32F0xxA\Include\hk32f04axxA.h

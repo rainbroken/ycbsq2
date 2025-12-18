@@ -63,7 +63,7 @@ int main(void)
      transfers and it is set by hardware at the last frame?s end of transmission*/
     while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TC) == RESET)
     {
-
+        
     }
 
     while (1)

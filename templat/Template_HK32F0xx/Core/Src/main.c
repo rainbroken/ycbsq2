@@ -66,24 +66,28 @@ int main(void)
     USART_InitStructure.USART_Parity = USART_Parity_No;
     USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
     USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+    
+//    USART_Init(USART1, &USART_InitStructure);
     HK_EVAL_COMInit(COM1, &USART_InitStructure);
-    HK_EVAL_LEDInit(LED1);
-    HK_EVAL_LEDInit(LED2);
-    HK_EVAL_LEDInit(LED3);
-    HK_EVAL_LEDInit(LED4);
-    HK_EVAL_PBInit(BUTTON_TAMPER, BUTTON_MODE_EXTI);
-    HK_EVAL_PBInit(BUTTON_SEL, BUTTON_MODE_EXTI);
 
-    /* Configure LEDs */
-    HK_EVAL_LEDOn(LED1);
-    HK_EVAL_LEDOn(LED2);
-    HK_EVAL_LEDOn(LED3);
-    HK_EVAL_LEDOn(LED4);
+//    HK_EVAL_LEDInit(LED1);
+//    HK_EVAL_LEDInit(LED2);
+//    HK_EVAL_LEDInit(LED3);
+//    HK_EVAL_LEDInit(LED4);
+//    HK_EVAL_PBInit(BUTTON_TAMPER, BUTTON_MODE_EXTI);
+//    HK_EVAL_PBInit(BUTTON_SEL, BUTTON_MODE_EXTI);
+
+//    /* Configure LEDs */
+//    HK_EVAL_LEDOn(LED1);
+//    HK_EVAL_LEDOn(LED2);
+//    HK_EVAL_LEDOn(LED3);
+//    HK_EVAL_LEDOn(LED4);
 
     /* Output a message on Hyperterminal using printf function */
-    printf("\n\r  *********************** CAN Dual FIFO Example ***********************\n\r");
-    printf("\r\n %s", MESSAGE2);
-    printf("\r\n %s", MESSAGE3);
+//    printf("aaa\r\n");
+//    printf("\n\r  *********************** CAN Dual FIFO Example ***********************\n\r");
+//    printf("\r\n %s", MESSAGE2);
+//    printf("\r\n %s", MESSAGE3);
 
     /* CAN configuration */
     CAN_Config();
@@ -91,6 +95,12 @@ int main(void)
     /* Infinite loop */
     while (1)
     {
+        USART_SendData(USART1,'a');
+        USART_SendData(USART1,'b');
+        USART_SendData(USART1,'c');
+        USART_SendData(USART1,'d');
+        USART_SendData(USART1,'e');
+        
     }
 }
 
