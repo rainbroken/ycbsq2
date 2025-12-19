@@ -37,6 +37,7 @@ void Uart2_Send(uint8_t data)
     while((USART2->TSR & 0x80) == RESET);
     USART2->TDR = data;
 #endif
+    
 }
 
 /**
@@ -61,11 +62,29 @@ void Uart3_Send(uint8_t data)
  * @param {UART_HandleTypeDef} *huartx  串口句柄
  * @return {*}                          串口接收到的数据
  */
-inline uint8_t USART_ReceiveData(UART_HandleTypeDef *huartx)
+uint8_t USARTx_ReceiveData(USART_TypeDef *huartx)
 {
-#ifdef STM32F1xx
-    return (uint8_t)(huartx->Instance->DR & 0xFF);
-#elif STM32F4xx || STM32L4xx
-    return (uint8_t)(huartx->Instance->RDR & 0xFF);
-#endif
+    return (uint8_t) (huartx->RDR &0xFF);
+}
+
+
+/**
+  * @brief  Retargets the C library printf function to the USART.
+  * @param  None
+  * @retval None
+  */
+PUTCHAR_PROTOTYPE
+{
+    uint32_t Timeout = 0;
+    FlagStatus Status;
+
+    USART_SendData(EVAL_COM1, (uint8_t) ch);
+
+    do
+    {
+        Status = USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TXE);
+        Timeout++;
+    } while ((Status == RESET) && (Timeout != 0xFFFF));
+
+    return (ch);
 }

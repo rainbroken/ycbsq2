@@ -44,19 +44,90 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
+// ADC
+#define ADC_BAT                     ADC
+#define ADC_CLK                     RCC_APB2Periph_ADC
+#define ADC_GPIO_CLK                RCC_AHBPeriph_GPIOA
+#define ADC_GPIO_PORT               GPIOA
+
+// CAN
 #define CANx                       CAN
 #define CAN_CLK                    RCC_APB1Periph_CAN
-#define CAN_RX_PIN                 GPIO_Pin_11
-#define CAN_TX_PIN                 GPIO_Pin_12
+#define CAN_RX_PIN                 GPIO_Pin_8
+#define CAN_TX_PIN                 GPIO_Pin_9
 #define CAN_GPIO_PORT              GPIOA
-#define CAN_GPIO_CLK               RCC_AHBPeriph_GPIOA
+#define CAN_GPIO_CLK               RCC_AHBPeriph_GPIOB
 #define CAN_AF_PORT                GPIO_AF_14
-#define CAN_RX_SOURCE              GPIO_PinSource11
-#define CAN_TX_SOURCE              GPIO_PinSource12
+#define CAN_RX_SOURCE              GPIO_PinSource8
+#define CAN_TX_SOURCE              GPIO_PinSource9
+
+// USART
+/*  USART1  */
+#define USART1_TXIO_PORT                 GPIOA
+#define USART1_TX_PIN                    GPIO_Pin_9
+#define USART1_AF_TX_PIN                 GPIO_PinSource9
+#define USART1_TXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* TX IO clock Enable */
+#define USART1_TXIO_CLK                  RCC_AHBPeriph_GPIOA
+             
+#define USART1_RXIO_PORT                 GPIOA
+#define USART1_RX_PIN                    GPIO_Pin_10
+#define USART1_AF_RX_PIN                 GPIO_PinSource10
+#define USART1_RXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* RX IO clock Enable */
+#define USART1_RXIO_CLK                  RCC_AHBPeriph_GPIOA
+             
+#define USART1_AF_SELECT                 GPIO_AF_1               /* AFIO SELECT Reference datasheet 6.8 table*/
+             
+#define USART1_CLK_CMD                   RCC_APB1PeriphClockCmd  /* USART2 clock Enable */
+#define USART1_CLK                       RCC_APB1Periph_USART1
+
+/*  USART2  */
+#define USART2_TXIO_PORT                 GPIOA
+#define USART2_TX_PIN                    GPIO_Pin_2
+#define USART2_AF_TX_PIN                 GPIO_PinSource2
+#define USART2_TXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* TX IO clock Enable */
+#define USART2_TXIO_CLK                  RCC_AHBPeriph_GPIOA
+             
+#define USART2_RXIO_PORT                 GPIOA
+#define USART2_RX_PIN                    GPIO_Pin_3
+#define USART2_AF_RX_PIN                 GPIO_PinSource3
+#define USART2_RXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* RX IO clock Enable */
+#define USART2_RXIO_CLK                  RCC_AHBPeriph_GPIOA
+             
+#define USART2_AF_SELECT                 GPIO_AF_3               /* AFIO SELECT */
+             
+#define USART2_CLK_CMD                   RCC_APB1PeriphClockCmd  /* USART2 clock Enable */
+#define USART2_CLK                       RCC_APB1Periph_USART2
+
+//I2Cx
+#define I2C_COMx                          I2C1
+#define I2C_COMx_CLK                      RCC_APB1Periph_I2C1
+
+#define I2C_COMx_SCL_PIN                  GPIO_Pin_6                  /* PB.06 */
+#define I2C_COMx_SCL_IO_PORT              GPIOB                       /* GPIOB */
+#define I2C_COMx_SCL_SOURCE               GPIO_PinSource6
+#define I2C_COMx_SCL_AF                   GPIO_AF_1
+#define I2C_COMx_SCLIO_CLKCMD             RCC_AHBPeriphClockCmd
+#define I2C_COMx_SCL_IO_CLK               RCC_AHBPeriph_GPIOB
+
+#define I2C_COMx_SDA_PIN                  GPIO_Pin_7                  /* PB.07 */
+#define I2C_COMx_SDA_IO_PORT              GPIOB                       /* GPIOB */
+#define I2C_COMx_SDA_SOURCE               GPIO_PinSource7
+#define I2C_COMx_SDA_AF                   GPIO_AF_1
+#define I2C_COMx_SDAIO_CLKCMD             RCC_AHBPeriphClockCmd
+#define I2C_COMx_SDA_IO_CLK               RCC_AHBPeriph_GPIOB
+
+//I2C CLOCK
+#define I2C_COMx_CLK_CMD                  RCC_APB1PeriphClockCmd
+//#define I2C_COMx_CLK                      RCC_APB1Periph_I2C1
+
+
+/*  USART2  */
+
+
 
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
-void LED_Display(uint8_t Ledstatus);
+
 
 #ifdef __cplusplus
 }

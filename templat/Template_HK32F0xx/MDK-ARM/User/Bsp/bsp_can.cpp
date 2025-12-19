@@ -1,5 +1,5 @@
 #include "bsp_can.hpp"
-#include "bsp.hpp"
+//#include "bsp.hpp"
 
 /**
   * @brief  Configures the CAN.

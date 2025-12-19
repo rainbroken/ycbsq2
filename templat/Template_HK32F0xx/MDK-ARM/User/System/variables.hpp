@@ -1,5 +1,7 @@
 #pragma once
 #include "hk32f04axxA.h"
+#include "main.h"
+
 //#include "adc.h"
 //#include "can.h"
 //#include "tim.h"

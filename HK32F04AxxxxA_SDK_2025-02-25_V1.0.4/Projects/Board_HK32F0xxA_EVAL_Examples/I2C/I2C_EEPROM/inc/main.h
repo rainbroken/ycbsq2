@@ -195,57 +195,29 @@ SYSCFG_DMAChannelRemapConfig(SYSCFG_DMARemap_USART2_DMA_RMP,ENABLE); */
 
 /******************************************************************************/
 //I2Cx
-#define I2C_COMx                          I2C1
-#define I2C_COMx_CLK                      RCC_APB1Periph_I2C1
+#define I2C_COMx                          I2C2
+#define I2C_COMx_CLK                      RCC_APB1Periph_I2C2
 
-#define I2C_COMx_SCL_PIN                  GPIO_Pin_6                  /* PB.06 */
+#define I2C_COMx_SCL_PIN                  GPIO_Pin_10                  /* PB.06 */
 #define I2C_COMx_SCL_IO_PORT              GPIOB                       /* GPIOB */
-#define I2C_COMx_SCL_SOURCE               GPIO_PinSource6
+#define I2C_COMx_SCL_SOURCE               GPIO_PinSource10
 #define I2C_COMx_SCL_AF                   GPIO_AF_1
 #define I2C_COMx_SCLIO_CLKCMD             RCC_AHBPeriphClockCmd
 #define I2C_COMx_SCL_IO_CLK               RCC_AHBPeriph_GPIOB
 
-#define I2C_COMx_SDA_PIN                  GPIO_Pin_7                  /* PB.07 */
+#define I2C_COMx_SDA_PIN                  GPIO_Pin_11                  /* PB.07 */
 #define I2C_COMx_SDA_IO_PORT              GPIOB                       /* GPIOB */
-#define I2C_COMx_SDA_SOURCE               GPIO_PinSource7
+#define I2C_COMx_SDA_SOURCE               GPIO_PinSource11
 #define I2C_COMx_SDA_AF                   GPIO_AF_1
 #define I2C_COMx_SDAIO_CLKCMD             RCC_AHBPeriphClockCmd
 #define I2C_COMx_SDA_IO_CLK               RCC_AHBPeriph_GPIOB
 
 //I2C CLOCK
 #define I2C_COMx_CLK_CMD                  RCC_APB1PeriphClockCmd
-#define I2C_COMx_CLK                      RCC_APB1Periph_I2C1
+//#define I2C_COMx_CLK                      RCC_APB1Periph_I2C1
 
-/* I2C DMA Config need to remap config,Call the following function
-   SYSCFG_DMAChannelRemapConfig(SYSCFG_DMARemap_I2C1_DMA_RMP,ENABLE); */
-#define I2C_COMx_DMATX_Channel         DMA1_Channel6
-#define I2C_COMx_DMATX_IRQ             DMA1_Channel4_7_IRQn
-#define I2C_COMx_DMATX_IRQHandle       DMA1_Channel4_7_IRQHandler
 
-#define I2C_COMx_DMARX_Channel         DMA1_Channel7
-#define I2C_COMx_DMARX_IRQ             DMA1_Channel4_7_IRQn
-#define I2C_COMx_DMARX_IRQHandle       DMA1_Channel4_7_IRQHandler
 
-#define I2C_COMx_TX_DMA_FLAG_TC        DMA1_FLAG_TC6
-#define I2C_COMx_TX_DMA_FLAG_GL        DMA1_FLAG_GL6
-#define I2C_COMx_RX_DMA_FLAG_TC        DMA1_FLAG_TC7
-#define I2C_COMx_RX_DMA_FLAG_GL        DMA1_FLAG_GL7
-
-//EEPROM type
-#define HK24C01   0x01
-#define HK24C02   0x02
-#define HK24C04   0x03
-#define HK24C08   0x04
-#define HK24C16   0x05
-#define HK24C32   0x06
-#define HK24C64   0x07
-#define HK24C128  0x08
-#define HK24C256  0x09
-#define HK24C512  0x0a
-#define HK24C1024 0x0b
-
-//EEPROM type in this example
-#define EE_TYPE HK24C02
 
 //open or close debug information
 #define DEBUG_ON 1

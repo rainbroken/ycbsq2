@@ -1,6 +1,6 @@
 #pragma once 
 #include "main.h"
-#include "usart.h"
+//#include "usart.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ void bspUartInit(void);
 void Uart1_Send(uint8_t data);
 void Uart2_Send(uint8_t data);
 void Uart3_Send(uint8_t data);
-inline uint8_t USART_ReceiveData(UART_HandleTypeDef *huartx);
+uint8_t USARTx_ReceiveData(USART_TypeDef *huartx);
 
     
     

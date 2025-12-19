@@ -63,7 +63,7 @@ int main(void)
     /* delay a time to usart idle */
     while (i--)
     {
-
+        
     }
 
     /* Enable PWR APB clock */
@@ -74,7 +74,7 @@ int main(void)
     /* Waiting Wake Up interrupt */
     while (InterruptCounter == 0x00)
     {
-
+        
     }
 
     /* Restore system clock */
