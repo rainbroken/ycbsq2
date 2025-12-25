@@ -1,0 +1,147 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 201,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步基站定位",
+      "Format": "String",
+      "Data": "config,get,lbsloc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取电池电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置参数源串口",
+      "Format": "String",
+      "Data": "config,set,paramsrc,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart参数",
+      "Format": "String",
+      "Data": "config,get,ttluart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开log日志",
+      "Format": "String",
+      "Data": "config,set,log,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询APN",
+      "Format": "String",
+      "Data": "config,get,apn\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除APN，模组自动选择",
+      "Format": "String",
+      "Data": "config,set,apn,0,,,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置自己专网卡APN",
+      "Format": "String",
+      "Data": "config,set,apn,1,apn1,user2,pass3,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置TCP链接，绑定串口",
+      "Format": "String",
+      "Data": "config,set,tcp,1,uart,1,0,00 01 02 03,60,118.195.188.216,9090,0,0,0,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

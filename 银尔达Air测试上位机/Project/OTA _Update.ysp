@@ -1,0 +1,210 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 122,
+  "Format_Width": 80,
+  "Data_Width": 250,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "PHP设置",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"APN\",\"\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=2,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "HTTP初始化",
+      "Format": "String",
+      "Data": "AT+HTTPINIT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CID\",1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置目标URL",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"URL\",\"http://www.ibinhub.com/upload/691783496.bin\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "传输起始位置",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"BREAK\",0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "传输终止位置",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"BREAKEND\",1023\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "AT+HTTPACTION=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取区间数据",
+      "Format": "String",
+      "Data": "AT+HTTPREAD\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重复操作，获得长度",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"BREAK\",1024\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"BREAKEND\",2047\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+HTTPACTION=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取区间数据",
+      "Format": "String",
+      "Data": "AT+HTTPREAD\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭HTTP连接",
+      "Format": "String",
+      "Data": "AT+HTTPTERM\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "复位",
+      "Format": "String",
+      "Data": "AT+RESET\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-/*
-* @file name: HK32F04AxxxxA_Develop_Update_Version
-* @description: 本文件是用来描述HK32F04AxxxxA系列芯片开发板版本列表
-* @author: AE Team
-*/
-
-V1.0.0/2023-12-07
-1. 首次发布

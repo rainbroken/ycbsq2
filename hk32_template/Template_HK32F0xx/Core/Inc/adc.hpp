@@ -1,0 +1,16 @@
+#pragma once
+#include "main.h"
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+    
+void ADC1_Init(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+
+

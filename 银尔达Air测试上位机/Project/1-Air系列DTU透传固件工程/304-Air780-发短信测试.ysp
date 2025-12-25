@@ -1,0 +1,98 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 471,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "目前air780系列支持，Air724不支持",
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "短信格式是UTF-8编码",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发短信的时候先把UTF-8的16进制编码转换成16进制格式的字符串，",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "比如发送123,我 UTF-8编码是0x31 0x32 0x33 0x2C 0xE6 0x88",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "转成字符串\"3132332CE688\"",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "首先要提前开启短信功能,可以Web上面配置",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,set,smson,1,0,0,0,0,1,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,get,smson\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发短信，123,我的家，@abc",
+      "Format": "String",
+      "Data": "config,set,sms,199xxxx6558,3132332CE68891E79A84E5AEB6EFBC8C40616263\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "收短信，不重启的情况下会最多缓存5条，读了就删除了",
+      "Format": "String",
+      "Data": "config,get,sms\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

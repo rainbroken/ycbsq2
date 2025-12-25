@@ -1,0 +1,133 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 328,
+  "Format_Width": 80,
+  "Data_Width": 294,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。115200~1200都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号强度",
+      "Format": "String",
+      "Data": "AT+CSQ\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "使能NET LED,默认使能",
+      "Format": "String",
+      "Data": "AT+MLED=0,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "NET LED就不亮了，掉电保存",
+      "Format": "String",
+      "Data": "AT+MLED=0,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "使能RDY(STATE LED),默认使能",
+      "Format": "String",
+      "Data": "AT+MLED=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "RDY LED就不亮了，掉电保存",
+      "Format": "String",
+      "Data": "AT+MLED=1,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

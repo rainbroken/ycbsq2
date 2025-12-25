@@ -1,0 +1,72 @@
+{
+      "Items": [
+        {
+          "Name": "读取IMEI",
+          "Format": "String",
+          "Data": "config,get,imei\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Data": "config,get,ttst\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "控制开启TTS播报模式关闭（其实目前不能关闭，后续扩展）",
+          "Format": "String",
+          "Data": "config,set,ttst,0\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "控制开启TTS播报模式为SPK喇叭",
+          "Format": "String",
+          "Data": "config,set,ttst,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "控制开启TTS播报模式为耳机喇叭",
+          "Format": "String",
+          "Data": "config,set,ttst,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "开启log",
+          "Format": "String",
+          "Data": "config,set,log,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "保存参数",
+          "Format": "String",
+          "Data": "config,set,save\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "播放文本语言，UTF-8编码",
+          "Format": "String",
+          "Data": "config,set,ttsp,5,0,123 tts 银尔达 yed \\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Data": "config,set,ttsp,7,0,重庆市的重物 一行一行的行人 \\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "播放文本语言，GB2312编码",
+          "Format": "String",
+          "Data": "config,set,ttsp,7,2123 tts 银尔达 yed \\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        }
+      ]
+}

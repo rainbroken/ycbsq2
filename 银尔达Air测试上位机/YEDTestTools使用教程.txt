@@ -1,0 +1,10 @@
+一、简介
+YEDTestTools(银尔达测试工具软件)，是银尔达自主研发的测试工具，支持串口，TCP 客户端，TCP服务端，UDP测试。
+支持日志保存，数据标记，数据查找，时间戳显示。
+支持快捷命令，提前写好的测试命令，方便调试。
+
+二、使用教程
+
+https://yinerda.yuque.com/yt1fh6/4gdtu/tl1vaqdylayghdhz
+
+

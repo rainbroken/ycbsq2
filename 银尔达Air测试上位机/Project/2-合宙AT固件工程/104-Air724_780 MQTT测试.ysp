@@ -1,0 +1,217 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 242,
+  "Format_Width": 80,
+  "Data_Width": 343,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。230400~9000都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置APN",
+      "Format": "String",
+      "Data": "AT+CSTT=\"\",\"\",\"\" \\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活网络",
+      "Format": "String",
+      "Data": "AT+CIICR\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询IP，只有获取到IP后才能上网",
+      "Format": "String",
+      "Data": "AT+CIFSR\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置MQTT参数客户端ID，用户名，密码，遗嘱一般不设置",
+      "Format": "String",
+      "Data": "AT+MCONFIG=7733d50a79363d3ffba966ff2d8a9fb7,7733d50a79363d3ffba966ff2d8a9fb7,88888888\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "连接MQTT服务器,设置服务器地址和端口",
+      "Format": "String",
+      "Data": "AT+MIPSTART=43.139.170.206,1002\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发起会话请求，注意在AT+MIPSTART成功后，马上发送这个命令",
+      "Format": "String",
+      "Data": "AT+MCONNECT=1,120\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "订阅topic1，实际使用可以任意定义",
+      "Format": "String",
+      "Data": "AT+MSUB=subtopic1,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic1,普通字符串数据",
+      "Format": "String",
+      "Data": "AT+MPUB=pubtopic1,0,0,\"pubtopic1_data\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic1,普通json字符串数据{\"test\":\"abc\"}",
+      "Format": "String",
+      "Data": "AT+MPUB=pubtopic1,0,0,\"{\\\\22test\\\\22:\\\\22abc\\\\22}\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic1,发布定长消息,12字节长度",
+      "Format": "String",
+      "Data": "AT+MPUBEX=pubtopic1,0,0,12\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "当收到模块返回的>后发数据",
+      "Format": "String",
+      "Data": "123456789012",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic1,发布定长消息,14字节长度,json数据",
+      "Format": "String",
+      "Data": "AT+MPUBEX=pubtopic1,0,0,14\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "当收到模块返回的>后发数据",
+      "Format": "String",
+      "Data": "{\"test\":\"abc\"}",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic1,发布定长消息,3字节长度,HEX数据",
+      "Format": "String",
+      "Data": "AT+MPUBEX=pubtopic1,0,0,3\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "当收到模块返回的>后发数据",
+      "Format": "Hex",
+      "Data": "01 02 03",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭MQTT连接，一般不需要",
+      "Format": "String",
+      "Data": "AT+MIPCLOSE\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "释放MQTT资源，一般不需要",
+      "Format": "String",
+      "Data": "AT+MIPCLOSE\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

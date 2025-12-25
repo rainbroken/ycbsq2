@@ -1,0 +1,161 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 223,
+  "Format_Width": 80,
+  "Data_Width": 480,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "PHP设置",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"APN\",\"\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+SAPBR=2,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "HTTP初始化",
+      "Format": "String",
+      "Data": "AT+HTTPINIT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CID\",1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置服务器地址+端口",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"URL\",\"http://www.ibinhub.com/data.php\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "POST请求 ",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CONTENT\",\"application/x-www-form-urlencoded\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "长度48",
+      "Format": "String",
+      "Data": "AT+HTTPEXACTION=1,48\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "（发送body）",
+      "Format": "String",
+      "Data": "AT+HTTPEXPOST=48,100000\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送请求",
+      "Format": "String",
+      "Data": "key=38fb567b7d868774ffd8ea0bf1f346dc&format=json",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取响应",
+      "Format": "String",
+      "Data": "AT+HTTPEXGET=1000\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭HTTP链接",
+      "Format": "String",
+      "Data": "AT+HTTPTERM\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+RESET\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 399,
+  "Format_Width": 80,
+  "Data_Width": 200,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。115200~1200都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP，通道1默认自动激活，模组自动选择，可以不执行",
+      "Format": "String",
+      "Data": "AT+CGDCONT=1,\"IP\",\"cmnet\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号强度",
+      "Format": "String",
+      "Data": "AT+CSQ\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活PDP，通道1默认自动激活，可以不执行",
+      "Format": "String",
+      "Data": "AT+MIPCALL=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询PDP是否激活，获取到IP表示激活，激活后向下执行",
+      "Format": "String",
+      "Data": "AT+MIPCALL?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询MQTT版本，4表示V3.1.1，可以不设置",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"version\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置MQTT需要的PDP，默认使用1,可以不设置",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"cid\",0,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置MQTT保活时间，一般设置120~240秒，默认120秒，可以不设置",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"keepalive\",0,120\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置MQTT clean参数,默认是0，1表示清除会话，可以不设置",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"clean\",0,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置mqtt数据编码格式，如果要发送HEX数据需要设置，1表示HEX",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"encoding\",0,1,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "如果要指定遗嘱配置will_flag,will_qos topic等参数，可以不用设置",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "MQTT默认有自动重连功能，如果重连的时候会上报状态，如不用可以关闭",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "创建MQTT连接，设置用户ID，用户，和密码登参数",
+      "Format": "String",
+      "Data": "AT+MQTTCONN=0,\"test.yinerda.com\",1002,\"769b7e332d27554e46dac47aac26891e\",\"769b7e332d27554e46dac47aac26891e\",\"88888888\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "订阅一个主题订阅，可以多次订阅",
+      "Format": "String",
+      "Data": "AT+MQTTSUB=0,\"test1\",0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "订阅同时订阅2主题",
+      "Format": "String",
+      "Data": "AT+MQTTSUB=0,\"test2\",0,\"test3\",0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布HEX数据，需要先设置MQTT编码为字符串模式，只需要设置一次",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"encoding\",0,0,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布topic名字push1，5个字节，字符串hello ",
+      "Format": "String",
+      "Data": "AT+MQTTPUB=0,\"push1\",0,0,0,5,\"hello\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+MQTTPUB=0,\"push1\",0,0,0,6,\"123456\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发布HEX数据，需要先设置MQTT编码为HEX模式，只需要设置一次",
+      "Format": "String",
+      "Data": "AT+MQTTCFG=\"encoding\",0,1,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送5个HEX数据 0x00 0x01 0x02 0x03 0x04",
+      "Format": "String",
+      "Data": "AT+MQTTPUB=0,\"push1\",0,0,0,5,\"0001020304\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询MQTT连接状态，表示连接成功",
+      "Format": "String",
+      "Data": "AT+MQTTSTATE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "主动断开连接",
+      "Format": "String",
+      "Data": "AT+MQTTDISC=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取同步网络时间",
+      "Format": "String",
+      "Data": "AT+MNTP\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取模组内部时间",
+      "Format": "String",
+      "Data": "AT+CCLK?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

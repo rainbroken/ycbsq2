@@ -1,0 +1,60 @@
+{
+      "Items": [
+        {
+          "Name": "ADC在网络异常或者网络数据通讯的时候，ADC数据有会有偏移",
+          "Format": "Hex",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "可以多次采集求平均",
+          "Format": "Hex",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "网络数据通讯后12秒以后采集ADC，更准确",
+          "Format": "Hex",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "Hex",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询输入电压通道1单位mv",
+          "Format": "String",
+          "Data": "config,get,aiv,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询输入电压通道2单位mv",
+          "Format": "String",
+          "Data": "config,get,aiv,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "Hex",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询输入电流通道1(0~20ma) 单位ma，实际值=读取值/1000",
+          "Format": "String",
+          "Data": "config,get,aii,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询输入电流通道1(0~20ma) 单位ma， 实际值=读取值/1000",
+          "Format": "String",
+          "Data": "config,get,aii,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        }
+      ]
+}

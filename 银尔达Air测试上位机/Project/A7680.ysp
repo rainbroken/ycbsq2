@@ -1,0 +1,189 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 242,
+  "Format_Width": 81,
+  "Data_Width": 410,
+  "Delay_Width": 74,
+  "Active_Width": 42,
+  "Add_Width": 42,
+  "Up_Width": 42,
+  "Down_Width": 42,
+  "Delete_Width": 42,
+  "Items": [
+    {
+      "Name": "重启",
+      "Format": "String",
+      "Data": "AT+CRESET\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "-------基础连接------",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "AT唤醒",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "IMEA",
+      "Format": "String",
+      "Data": "AT+CICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "-------MQTT连接------",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "启动mqtt",
+      "Format": "String",
+      "Data": "AT+CMQTTSTART\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": ">>>>>>>发布相关>>>>>>",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置clientID",
+      "Format": "String",
+      "Data": "AT+CMQTTACCQ=0,\"9b6c16d017004437bef96406ac888213\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "连接服务器",
+      "Format": "String",
+      "Data": "AT+CMQTTCONNECT=0,\"tcp://113.45.141.242:1883\",60,1,\"admin\",\"yh12345\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "准备发布话题(idx,话题长度)",
+      "Format": "String",
+      "Data": "AT+CMQTTTOPIC=0,4\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "[输入发布话题]",
+      "Format": "String",
+      "Data": "test\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "准备发送报文",
+      "Format": "String",
+      "Data": "AT+CMQTTPAYLOAD=0,10\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "[输入报文]",
+      "Format": "String",
+      "Data": "0123456789",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送报文",
+      "Format": "String",
+      "Data": "AT+CMQTTPUB=0,1,60\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": ">>>>>>>订阅相关>>>>>>",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "准备输入订阅话题(idx,话题长度，qos)",
+      "Format": "String",
+      "Data": "AT+CMQTTSUBTOPIC=0,4,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "[输入订阅话题]",
+      "Format": "String",
+      "Data": "test",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "订阅话题",
+      "Format": "String",
+      "Data": "AT+CMQTTSUB=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭mqtt",
+      "Format": "String",
+      "Data": "AT+CMQTTSTOP\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

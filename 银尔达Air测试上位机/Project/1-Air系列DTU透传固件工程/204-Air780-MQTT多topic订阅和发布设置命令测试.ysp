@@ -1,0 +1,196 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 201,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS232参数",
+      "Format": "String",
+      "Data": "config,get,uart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS485参数",
+      "Format": "String",
+      "Data": "config,get,rs485\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道1链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道2链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "本demo 目前只有air780支持，需要配合任务来实现",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "通过任务可以设置DTU发送接收的topic名字",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "通过任务可以设置DTU发送指定topic名字发布数据",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置MQTT绑定rs485,有遗嘱，注册信息为固定值",
+      "Format": "String",
+      "Data": "config,set,mqtt,1,uart,120,118.195.188.216,61613,${IMEI},admin,password,1,1,0,0,0,sub/${IMEI},pus/${IMEI},1,1,1,will,dtu will data,1,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置MQTT绑定rs485,有遗嘱，注册信息为固定值",
+      "Format": "String",
+      "Data": "config,set,mqtt,1,rs485,120,118.195.188.216,61613,${IMEI},admin,password,1,1,0,0,0,sub/${IMEI},pus/${IMEI};pus2,1,1,1,will,dtu will data,1,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

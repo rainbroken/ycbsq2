@@ -1,0 +1,280 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 163,
+  "Format_Width": 80,
+  "Data_Width": 209,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "需要支持相应资源的设备才支持，比如RY18811，RY1442等",
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道1 打开",
+      "Format": "String",
+      "Data": "config,set,doout,1,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道2 打开",
+      "Format": "String",
+      "Data": "config,set,doout,2,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道3 打开",
+      "Format": "String",
+      "Data": "config,set,doout,3,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道4 打开",
+      "Format": "String",
+      "Data": "config,set,doout,4,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道5 打开",
+      "Format": "String",
+      "Data": "config,set,doout,5,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道6 打开",
+      "Format": "String",
+      "Data": "config,set,doout,6,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道7 打开",
+      "Format": "String",
+      "Data": "config,set,doout,7,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道8 打开",
+      "Format": "String",
+      "Data": "config,set,doout,8,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道1 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,1,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道2 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,2,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道3 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,3,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道4 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,4,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道5 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,5,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道6 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,6,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道7 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,7,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置输出通道8 关闭",
+      "Format": "String",
+      "Data": "config,set,doout,8,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道1 状态",
+      "Format": "String",
+      "Data": "config,get,doout,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道1 状态",
+      "Format": "String",
+      "Data": "config,get,dooutext,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道2 状态",
+      "Format": "String",
+      "Data": "config,get,doout,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道3 状态",
+      "Format": "String",
+      "Data": "config,get,doout,3\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道4 状态",
+      "Format": "String",
+      "Data": "config,get,doout,4\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道5 状态",
+      "Format": "String",
+      "Data": "config,get,doout,5\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道6 状态",
+      "Format": "String",
+      "Data": "config,get,doout,6\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道7 状态",
+      "Format": "String",
+      "Data": "config,get,doout,7\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输出通道8 状态",
+      "Format": "String",
+      "Data": "config,get,doout,8\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道1状态",
+      "Format": "String",
+      "Data": "config,get,diin,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道1状态",
+      "Format": "String",
+      "Data": "config,get,diinext,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道2状态",
+      "Format": "String",
+      "Data": "config,get,diin,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道3状态",
+      "Format": "String",
+      "Data": "config,get,diin,3\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道4状态",
+      "Format": "String",
+      "Data": "config,get,diin,4\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道5状态",
+      "Format": "String",
+      "Data": "config,get,diin,5\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道6状态",
+      "Format": "String",
+      "Data": "config,get,diin,6\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道7状态",
+      "Format": "String",
+      "Data": "config,get,diin,7\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询电平输入通道8状态",
+      "Format": "String",
+      "Data": "config,get,diin,8\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

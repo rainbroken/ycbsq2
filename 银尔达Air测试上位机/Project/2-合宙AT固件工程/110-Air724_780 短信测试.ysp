@@ -1,0 +1,126 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 192,
+  "Format_Width": 80,
+  "Data_Width": 257,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "Air724系列能用移动，联通，电信手机卡",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "Air780系列能用移动，联通卡，不能用电信卡",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "模块开机状态下发送AT\\r匹配波特率",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认卡是否插好，读取ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认附着网络，返回1在执行下面的命令",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置短信服务",
+      "Format": "String",
+      "Data": "AT+CSMS=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置消息格式为TEXT模式",
+      "Format": "String",
+      "Data": "AT+CMGF=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置TEXT模式参数中文模式",
+      "Format": "String",
+      "Data": "AT+CSMP=17,167,0,8\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送TEXT短信",
+      "Format": "String",
+      "Data": "AT+CMGS=\"19926586558\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "收到>后发送内容发的16进制格式（abc123银尔达欢迎你）",
+      "Format": "Hex",
+      "Data": "00610062006300310032003394F65C148FBE6B228FCE4F60",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送16进制的<ctrl-Z>",
+      "Format": "Hex",
+      "Data": "1A",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "银尔达调试工具，设置，字符串编码方式，Unicode(Big-Endian) 可以查看发送数据",
+      "Format": "String",
+      "Data": "abc123银尔达欢迎你",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "银尔达调试工具，设置，字符串编码方式，GB2312 可以查看收到数据",
+      "Format": "String",
+      "Data": "abc123银尔达欢迎你",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 201,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "控制可控电源输出-关闭",
+      "Format": "String",
+      "Data": "config,set,powerout,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "控制可控电源输出-打开",
+      "Format": "String",
+      "Data": "config,set,powerout,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "控制可控电源延迟输出-先关闭，延迟10秒，然后打开",
+      "Format": "String",
+      "Data": "config,set,powerout,1,10000\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

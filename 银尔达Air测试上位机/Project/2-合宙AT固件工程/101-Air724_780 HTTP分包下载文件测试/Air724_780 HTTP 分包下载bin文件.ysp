@@ -1,0 +1,259 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 242,
+  "Format_Width": 80,
+  "Data_Width": 323,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "模块开机状态下发送AT\\r匹配波特率",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，读取ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认附着网络，如果为1后详下执行",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载类型，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载的APN，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"APN\",\"\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活PDP，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询PDP IP地址，获取到IP地址后详细执行",
+      "Format": "String",
+      "Data": "AT+SAPBR=2,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取能直接下载的文件命令，如果文件很大，会报内存错误",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "初始化HTTP（公用部分） ",
+      "Format": "String",
+      "Data": "AT+HTTPINIT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置CID",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CID\",1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "初始化HTTP url（32K能直接下载，500K提示内存不足）",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"URL\",\"http://42.193.187.99/V1.bin\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "HTTP get 数据,收到OK表示发送成功",
+      "Format": "String",
+      "Data": "AT+HTTPACTION=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取获取到的HTTP数据，收到+HTTPACTION表示接受到数据",
+      "Format": "String",
+      "Data": "AT+HTTPREAD=0,32568\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取超大文件",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "分包下载HTTP资料:https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Range_requests",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "初始化HTTP（公用部分） ",
+      "Format": "String",
+      "Data": "AT+HTTPINIT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置CID",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CID\",1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "初始化HTTP url",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"URL\",\"http://42.193.187.99/V2.bin\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "1、设置head Ranges 的范围0~30000，字节编码从0开始（在引的时候，需要提前知道数据长度）",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"USERDATA\",\"Range:bytes=0-30000\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "Get获取数据，会产生HTTPACTION 返回数据长度",
+      "Format": "String",
+      "Data": "AT+HTTPACTION=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取获取到的HTTP数据，收到+HTTPACTION 里面有可以读的数据长度",
+      "Format": "String",
+      "Data": "AT+HTTPREAD=0,30001\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重新设置head Ranges 的范围30001~50000",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"USERDATA\",\"Range:bytes=30001-50000\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "HTTP get 数据,收到OK表示发送成功",
+      "Format": "String",
+      "Data": "AT+HTTPACTION=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取获取到的HTTP数据，收到+HTTPACTION表示接受到数据",
+      "Format": "String",
+      "Data": "AT+HTTPREAD=0,30001\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "通过设置ranges 直到把数据读完整为止",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭",
+      "Format": "String",
+      "Data": "AT+HTTPTERM\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "如果第一次不知道bin长度，读取head,获取服务器是否支持Accept-Ranges功能和Content-Length 文件长度",
+      "Format": "String",
+      "Data": "AT+HTTPHEAD\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 163,
+  "Format_Width": 80,
+  "Data_Width": 519,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取imsi",
+      "Format": "String",
+      "Data": "config,get,imsi\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重启设备",
+      "Format": "String",
+      "Data": "config,set,reboot\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取电池电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "回复出厂设置",
+      "Format": "String",
+      "Data": "config,set,reset\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否设置密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "验证密码(如果加密需要先验证密码，才能查询或是设置其他参数)",
+      "Format": "String",
+      "Data": "config,set,vspassword,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置参数源为串口",
+      "Format": "String",
+      "Data": "config,set,paramsrc,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络参数版本",
+      "Format": "String",
+      "Data": "config,get,paramver\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询定时重启时间",
+      "Format": "String",
+      "Data": "config,get,reboottime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询日志开关",
+      "Format": "String",
+      "Data": "config,get,log\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开日志",
+      "Format": "String",
+      "Data": "config,set,log,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询固件升级",
+      "Format": "String",
+      "Data": "config,get,ota\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "开启固件自动升级",
+      "Format": "String",
+      "Data": "config,set,ota,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询包分帧时间",
+      "Format": "String",
+      "Data": "config,get,netouttime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询APN信息",
+      "Format": "String",
+      "Data": "config,get,apn\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否开启远程控制命令",
+      "Format": "String",
+      "Data": "config,get,remotecmd\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否开启NTP时间同步",
+      "Format": "String",
+      "Data": "config,get,ntptime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,set,reboottime,1440\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置DTU 串口20秒没没接收到任何数据自动重启",
+      "Format": "String",
+      "Data": "config,set,uartreboottime,20\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置DTU 网络180秒没没接收到任何数据自动重启",
+      "Format": "String",
+      "Data": "config,set,netreboottime,180\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询启动远程控制命令",
+      "Format": "String",
+      "Data": "config,get,remotecmd\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "启动远程控制命令（服务器可以执行config命令，需要打开）",
+      "Format": "String",
+      "Data": "config,set,remotecmd,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart参数",
+      "Format": "String",
+      "Data": "config,get,ttluart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS232参数",
+      "Format": "String",
+      "Data": "config,get,rs232\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart或者RS232参数",
+      "Format": "String",
+      "Data": "config,get,uart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS485参数",
+      "Format": "String",
+      "Data": "config,get,rs485\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道1链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道2链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置TCP链接，绑定RS232串口",
+      "Format": "String",
+      "Data": "config,set,tcp,1,uart,1,0,00 01 02 03,60,118.195.188.216,8088,0,0,0,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置TCP链接，绑定RS485串口",
+      "Format": "String",
+      "Data": "config,set,tcp,1,rs485,1,1,00 01 02 03,60,118.195.188.216,9099,0,0,0,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,set,tcp,1,rs485_2,1,1,00 01 02 03,60,118.195.188.216,9099,0,0,0,0,0,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "1111",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

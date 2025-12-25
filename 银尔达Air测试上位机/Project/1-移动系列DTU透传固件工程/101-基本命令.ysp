@@ -1,0 +1,245 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 163,
+  "Format_Width": 80,
+  "Data_Width": 369,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取imsi",
+      "Format": "String",
+      "Data": "config,get,imsi\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取供电电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络包分帧时间",
+      "Format": "String",
+      "Data": "config,get,netouttime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取参数板版本 ",
+      "Format": "String",
+      "Data": "config,get,paramver\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否设置密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "验证密码",
+      "Format": "String",
+      "Data": "config,set,vspassword,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询日志",
+      "Format": "String",
+      "Data": "config,get,log\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询OTA",
+      "Format": "String",
+      "Data": "config,get,ota\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询定时重启时间",
+      "Format": "String",
+      "Data": "config,get,reboottime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询串口无数据重启时间",
+      "Format": "String",
+      "Data": "config,get,uartreboottime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络五数据重启时间",
+      "Format": "String",
+      "Data": "config,get,netreboottime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取是否远程控制",
+      "Format": "String",
+      "Data": "config,get,remotecmd\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取ntp时间同步周期",
+      "Format": "String",
+      "Data": "config,get,ntptime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询新链接删除串口缓存",
+      "Format": "String",
+      "Data": "config,get,dcache\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询低功耗",
+      "Format": "String",
+      "Data": "config,get,lp\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取设备状态",
+      "Format": "String",
+      "Data": "config,get,ssta\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重启设备",
+      "Format": "String",
+      "Data": "config,set,reboot\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "恢复出厂设置",
+      "Format": "String",
+      "Data": "config,set,reset\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取内部型号",
+      "Format": "String",
+      "Data": "config,get,devicename\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取配置参数",
+      "Format": "String",
+      "Data": "config,get,writefile\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

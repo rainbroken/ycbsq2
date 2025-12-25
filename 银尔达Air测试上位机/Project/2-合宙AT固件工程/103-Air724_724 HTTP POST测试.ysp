@@ -1,0 +1,154 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 242,
+  "Format_Width": 80,
+  "Data_Width": 343,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "模块开机状态下发送AT\\r匹配波特率",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡是否插好，读取ICCID",
+      "Format": "String",
+      "Data": "AT+CPIN?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，返回1后再执行下面的",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载类型，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载的APN，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"APN\",\"\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活PDP，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询PDP IP地址，获取到IP地址后详细执行",
+      "Format": "String",
+      "Data": "AT+SAPBR=2,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "初始化HTTP ",
+      "Format": "String",
+      "Data": "AT+HTTPINIT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置HTTP 承载PDP上下文",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CID\",1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置HTTP请求实体数据类型json或者其他",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"CONTENT\",\"application/json\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置HTTP url",
+      "Format": "String",
+      "Data": "AT+HTTPPARA=\"URL\",\"http://43.139.170.206:1000/41f30a3de4fb1c583b57157c3daea174\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置POST发送数据长度和超时时间",
+      "Format": "String",
+      "Data": "AT+HTTPDATA=14,10000\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "返回DOWNLOAD后发送数据",
+      "Format": "String",
+      "Data": "{\"test\",\"abc\"}",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "HTTP GET 数据,收到OK表示发送成功",
+      "Format": "String",
+      "Data": "AT+HTTPACTION=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取HTTP返回的数据，收到+HTTPACTION表示请求有结果",
+      "Format": "String",
+      "Data": "AT+HTTPREAD=0,14615\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭HTTP，在关闭之前，之前的参数一直有效，关闭后需要重新初始化",
+      "Format": "String",
+      "Data": "AT+HTTPTERM\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 201,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "基站定位如果直接调用lbsloc查询，可能会卡顿，可以先设置location不上报，然后查询",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步基站定位",
+      "Format": "String",
+      "Data": "config,get,lbsloc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询基站定位设置信息",
+      "Format": "String",
+      "Data": "config,get,location,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "开启基站定位，不上报",
+      "Format": "String",
+      "Data": "config,set,location,1,1,60,0,0,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "开启基站定位，通道1，上报自定义格式数据",
+      "Format": "String",
+      "Data": "config,set,location,1,1,60,2,test${LBSLON}${LBSLAT},1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "Hex",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "GPS定位需要先开启location，并且GPS LED闪烁后，才能调用gps命令查询，天线放到室外才能定位",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询GPS定位设置信息",
+      "Format": "String",
+      "Data": "config,get,location,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "开启GPS定位，通道1，上报自定义格式数据",
+      "Format": "String",
+      "Data": "config,set,location,2,1,60,2,test${GPSLONT}${GPSLON}:${GPSLATT}${GPSLAT},1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取GPS定位坐标",
+      "Format": "String",
+      "Data": "config,get,gps\\r\\n",
+      "Delay": 1000,
+      "Active": false
+    },
+    {
+      "Name": "获取GPS定位坐标扩展命令",
+      "Format": "String",
+      "Data": "config,get,gpsext\\r\\n",
+      "Delay": 1000,
+      "Active": true
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

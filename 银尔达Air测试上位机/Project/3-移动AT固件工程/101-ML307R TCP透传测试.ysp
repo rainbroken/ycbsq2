@@ -1,0 +1,217 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 328,
+  "Format_Width": 80,
+  "Data_Width": 100,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。115200~1200都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "AT+CGSN=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP，通道1默认自动激活，模组自动选择，可以不执行",
+      "Format": "String",
+      "Data": "AT+CGDCONT=1,\"IP\",\"cmnet\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号强度",
+      "Format": "String",
+      "Data": "AT+CSQ\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活PDP，通道1默认自动激活，可以不执行",
+      "Format": "String",
+      "Data": "AT+MIPCALL=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询PDP是否激活，获取到IP表示激活，激活后向下执行",
+      "Format": "String",
+      "Data": "AT+MIPCALL?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "创建TCP普通模式,网络Id =0超时5秒",
+      "Format": "String",
+      "Data": "AT+MIPOPEN=0,\"TCP\",\"test.yinerda.com\",27521,5,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "当收到CONNECT后就表示连接成功，并且进入透传模式",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发的任何数据都透传到服务器",
+      "Format": "String",
+      "Data": "11111111111",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发的任何数据都透传到服务器",
+      "Format": "Hex",
+      "Data": "000102030405",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "进入透传后一般不需要退出透传，只有在设备收不到服务器信息后，才出来检查一下",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "退出透传模式，然后才能执行AT命令",
+      "Format": "String",
+      "Data": "+++",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络连接情况",
+      "Format": "String",
+      "Data": "AT+MIPSTATE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重新进入透传模式",
+      "Format": "String",
+      "Data": "AT+MIPMODE=0,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭TCP连接",
+      "Format": "String",
+      "Data": "AT+MIPCLOSE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取同步网络时间",
+      "Format": "String",
+      "Data": "AT+MNTP\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "获取模组内部时间",
+      "Format": "String",
+      "Data": "AT+CCLK?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

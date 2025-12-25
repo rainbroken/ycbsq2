@@ -1,0 +1,252 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 352,
+  "Format_Width": 80,
+  "Data_Width": 489,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。115200~1200都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号强度",
+      "Format": "String",
+      "Data": "AT+CSQ\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "ML307R进入休眠模式后网络还是保持连接的",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "M307R系列，通过DRT拉高唤醒模块；悬空和低电平休眠",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "M307R系列，通过串口发数据唤醒模块",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "休眠的时候RDY管脚是低电平，唤醒是高电平，可以用来唤醒MCU",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "M307R -B1不打开休眠，待机5V/11ma",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "M307R 打开休眠，待机5V/1.3~2.5ma",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭睡眠",
+      "Format": "String",
+      "Data": "AT+MLPMCFG=\"sleepmode\",0,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "满足休眠条件后延迟多久休眠，如果用了DTR管脚一般不需要设置",
+      "Format": "String",
+      "Data": "AT+MLPMCFG=\"delaysleep\",10\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开深睡眠(网络是保持连接的，服务器下发能唤醒4G模块",
+      "Format": "String",
+      "Data": "AT+MLPMCFG=\"sleepmode\",2,0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "如果成功进入休眠模式，NET LED熄灭",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置TCP协议的keepalive功能，模块会主动周期探查服务器,防止休眠被基站断开",
+      "Format": "String",
+      "Data": "AT+MIPTKA=0,1,180,75,3\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "创建网络连接",
+      "Format": "String",
+      "Data": "AT+MIPOPEN=0,\"TCP\",\"test.yinerda.com\",24521,5,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "发送数据",
+      "Format": "String",
+      "Data": "111111111111111111",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "退出透传模式",
+      "Format": "String",
+      "Data": "+++",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络状态",
+      "Format": "String",
+      "Data": "AT+MIPSTATE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重新进入透传模式",
+      "Format": "String",
+      "Data": "AT+MIPMODE=0,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭网络连接",
+      "Format": "String",
+      "Data": "AT+MIPCLOSE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

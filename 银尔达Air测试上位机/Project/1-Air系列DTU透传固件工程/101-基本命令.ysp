@@ -1,0 +1,553 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 163,
+  "Format_Width": 80,
+  "Data_Width": 322,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取imsi",
+      "Format": "String",
+      "Data": "config,get,imsi\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "重启设备",
+      "Format": "String",
+      "Data": "config,set,reboot\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取电池电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "恢复出厂设置",
+      "Format": "String",
+      "Data": "config,set,reset\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否设置密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "验证密码(如果加密需要先验证密码，才能查询或是设置其他参数)",
+      "Format": "String",
+      "Data": "config,set,vspassword,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置参数源为串口",
+      "Format": "String",
+      "Data": "config,set,paramsrc,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询网络参数版本",
+      "Format": "String",
+      "Data": "config,get,paramver\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询定时重启时间",
+      "Format": "String",
+      "Data": "config,get,reboottime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,1,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,2,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,3,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,4,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,5,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,6,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,7,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,8,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "输出通道1 打开",
+      "Format": "String",
+      "Data": "config,set,doout,1,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "输出通道2 打开",
+      "Format": "String",
+      "Data": "config,set,doout,2,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "输出通道3 打开",
+      "Format": "String",
+      "Data": "config,set,doout,3,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "输出通道4 打开",
+      "Format": "String",
+      "Data": "config,set,doout,4,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,5,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,6,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,7,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,doout,8,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输入通道1电平",
+      "Format": "String",
+      "Data": "config,get,diin,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输入通道2电平",
+      "Format": "String",
+      "Data": "config,get,diin,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输入通道3电平",
+      "Format": "String",
+      "Data": "config,get,diin,3\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输入通道4电平",
+      "Format": "String",
+      "Data": "config,get,diin,4\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,diin,5\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,diin,6\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,diin,7\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,diin,8\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aiv,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aiv,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aiv,3\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aiv,4\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aii,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aii,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aii,3\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,get,aii,4\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取RTC",
+      "Format": "String",
+      "Data": "config,get,rtc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,rtc,2024,12,6,18,0,0,5\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "控制可控电源输出",
+      "Format": "String",
+      "Data": "config,set,powerout,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "config,set,powerout,0\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询日志开关",
+      "Format": "String",
+      "Data": "config,get,log\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开日志",
+      "Format": "String",
+      "Data": "config,set,log,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询固件升级",
+      "Format": "String",
+      "Data": "config,get,ota\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "开启固件自动升级",
+      "Format": "String",
+      "Data": "config,set,ota,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询包分帧时间",
+      "Format": "String",
+      "Data": "config,get,netouttime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询APN信息",
+      "Format": "String",
+      "Data": "config,get,apn\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否开启远程控制命令",
+      "Format": "String",
+      "Data": "config,get,remotecmd\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询是否开启NTP时间同步",
+      "Format": "String",
+      "Data": "config,get,ntptime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置自动重启时间为1440分钟",
+      "Format": "String",
+      "Data": "config,set,reboottime,1440\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置DTU 串口20秒没没接收到任何数据自动重启",
+      "Format": "String",
+      "Data": "config,set,uartreboottime,20\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "配置DTU 网络180秒没没接收到任何数据自动重启",
+      "Format": "String",
+      "Data": "config,set,netreboottime,180\\r\\n",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 192,
+  "Format_Width": 80,
+  "Data_Width": 298,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。230400~9000都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，查询SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认是否附着网络，要为1后才执行下面操作",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置UDP单链接",
+      "Format": "String",
+      "Data": "AT+CIPMUX=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置为透明传输",
+      "Format": "String",
+      "Data": "AT+CIPMODE=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置APN",
+      "Format": "String",
+      "Data": "AT+CSTT=\"\",\"\",\"\" \\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活网络",
+      "Format": "String",
+      "Data": "AT+CIICR\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询IP，只有获取到IP后才能上网",
+      "Format": "String",
+      "Data": "AT+CIFSR\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "创建UDP连接(测试的时候换成自己的服务器和端口)",
+      "Format": "String",
+      "Data": "AT+CIPSTART=\"UDP\",\"43.139.170.206\",15171\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "创建链接后，直接发数据即可",
+      "Format": "String",
+      "Data": "123456789012",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "服务器发数据，会自动发到串口",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "透传模式切换到命令模式",
+      "Format": "String",
+      "Data": "+++",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "命令模式切换到透传模式",
+      "Format": "String",
+      "Data": "ATO\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭连接，一般不需要",
+      "Format": "String",
+      "Data": "AT+CIPCLOSE=0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭移动场景，一般不需要",
+      "Format": "String",
+      "Data": "AT+CIPSHUT\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

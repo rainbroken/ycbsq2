@@ -1,0 +1,168 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 192,
+  "Format_Width": 80,
+  "Data_Width": 100,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "确认开机，自适应波特率。230400~9000都可以",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认SIM卡插好，读取SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认附着网络成功，返回1表示正常",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载类型，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置PDP承载的APN，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=3,1,\"APN\",\"\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "激活PDP，固定",
+      "Format": "String",
+      "Data": "AT+SAPBR=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询PDP IP地址，获取到IP地址后详细执行",
+      "Format": "String",
+      "Data": "AT+SAPBR=2,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "基站定位(基站定位需要网络正常才能用)",
+      "Format": "String",
+      "Data": "AT+CIPGSMLOC=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "WIFI定位(基站定位需要网络正常才能用)",
+      "Format": "String",
+      "Data": "AT+WIFILOC=1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "GPS 定位 天线必须放到室外，朝天，室内无法定位",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开gps",
+      "Format": "String",
+      "Data": "AT+CGNSPWR=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置辅助定位(需要网络才能用)",
+      "Format": "String",
+      "Data": "AT+CGNSAID=1,1,1,1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取GPS信息，如果没数据就没定位成功，可以周期查询",
+      "Format": "String",
+      "Data": "AT+CGNSINF\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置GPS数据自动上报，不必须，一般是用来调试的",
+      "Format": "String",
+      "Data": "AT+CGNSURC=2\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置GNSS数据传到AT串口，不必须，一般是用来调试的",
+      "Format": "String",
+      "Data": "AT+CGNSTST=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+IPR=115200\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+RESET\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

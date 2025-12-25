@@ -1,0 +1,201 @@
+{
+      "Items": [
+        {
+          "Format": "String",
+          "Data": "config,get,devicename\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "读取IMEI",
+          "Format": "String",
+          "Data": "config,get,imei\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "读取iccid",
+          "Format": "String",
+          "Data": "config,get,iccid\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "读取固件版本",
+          "Format": "String",
+          "Data": "config,get,firmwarever\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "读取信号质量",
+          "Format": "String",
+          "Data": "config,get,csq\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "同步网络时间",
+          "Format": "String",
+          "Data": "config,get,nettime\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "同步基站定位",
+          "Format": "String",
+          "Data": "config,get,lbsloc\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "读取电池电压",
+          "Format": "String",
+          "Data": "config,get,vbatt\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询密码",
+          "Format": "String",
+          "Data": "config,get,password\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询参数源",
+          "Format": "String",
+          "Data": "config,get,paramsrc\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "设置参数源为串口",
+          "Format": "String",
+          "Data": "config,set,paramsrc,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Data": "config,set,log,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询ttluart参数",
+          "Format": "String",
+          "Data": "config,get,ttluart\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询RS232参数",
+          "Format": "String",
+          "Data": "config,get,rs232\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询ttluart和rs232参数",
+          "Format": "String",
+          "Data": "config,get,uart\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询RS485参数",
+          "Format": "String",
+          "Data": "config,get,rs485\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询通道1链接状态",
+          "Format": "String",
+          "Data": "config,get,netstatus,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询通道2链接状态",
+          "Format": "String",
+          "Data": "config,get,netstatus,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询通道1链接信息",
+          "Format": "String",
+          "Data": "config,get,netchaninfo,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "查询通道2链接信息",
+          "Format": "String",
+          "Data": "config,get,netchaninfo,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "删除通道1链接信息",
+          "Format": "String",
+          "Data": "config,set,delnetchan,1\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "删除通道2链接信息",
+          "Format": "String",
+          "Data": "config,set,delnetchan,2\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "ThingsCloud,设备使用IMEI自动创建设备",
+          "Format": "String",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Data": "config,set,thcloud,1,rs485,0,60,sh-3-mqtt.iot-api.com,1883,https://sh-3-api.iot-api.com,ZXi8mx3lqZ,wsdldwmhq4,attributes/push,attributes,0,0\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Name": "保存参数，设备会自动重启，并且参数生效",
+          "Format": "String",
+          "Data": "config,set,save\\r\\n",
+          "Delay": "0",
+          "Active": "false"
+        },
+        {
+          "Format": "String",
+          "Data": "{\"temperature\":24}",
+          "Delay": "0",
+          "Active": "false"
+        }
+      ]
+}

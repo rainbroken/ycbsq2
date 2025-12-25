@@ -1,0 +1,35 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 229,
+  "Format_Width": 80,
+  "Data_Width": 156,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "修改Air530Z-DB波特率为115200",
+      "Format": "String",
+      "Data": "$PCAS01,5*19\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "波特率设置后断电会不会保存",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "调试可是使用GNSS TooKit3工具测试",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

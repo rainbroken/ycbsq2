@@ -1,0 +1,147 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 242,
+  "Format_Width": 80,
+  "Data_Width": 343,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "本测试必须用自己的手机卡测试，只有Air724支持",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "模块开机状态下发送AT\\r匹配波特率",
+      "Format": "String",
+      "Data": "AT\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "关闭回显",
+      "Format": "String",
+      "Data": "ATE0\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认卡查好，读取SIM卡ICCID",
+      "Format": "String",
+      "Data": "AT+ICCID\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "确认附着网络，如果为1在向下执行",
+      "Format": "String",
+      "Data": "AT+CGATT?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "电信卡打开VOLTE通话功能",
+      "Format": "String",
+      "Data": "AT+SETVOLTE=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置主叫号码显示",
+      "Format": "String",
+      "Data": "AT+CLIP=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打电话(测试自己的号码，不要随便打其他号码)",
+      "Format": "String",
+      "Data": "ATD199XXXX6558;\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "对方电话接通后，模拟按键1,模拟手机按键盘",
+      "Format": "String",
+      "Data": "AT+VTS=1\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "对方电话接通后，播放tts语言到对方手机",
+      "Format": "String",
+      "Data": "AT+CTTS=2,\"1 2 fff 3 4 5 6\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "别人打电话过来，接听电话",
+      "Format": "String",
+      "Data": "ATA\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "别人打电话过来，挂电话",
+      "Format": "String",
+      "Data": "AT+CHUP\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "调节扬声器音量0-100,越大，声音越大",
+      "Format": "String",
+      "Data": "AT+CLVL=100\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "AT+CMIC=0,15\\r",
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

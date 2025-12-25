@@ -1,0 +1,245 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 171,
+  "Format_Width": 80,
+  "Data_Width": 471,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,get,devicename\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步基站定位",
+      "Format": "String",
+      "Data": "config,get,lbsloc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取电池电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置参数源为串口",
+      "Format": "String",
+      "Data": "config,set,paramsrc,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,set,log,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart参数",
+      "Format": "String",
+      "Data": "config,get,ttluart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS232参数",
+      "Format": "String",
+      "Data": "config,get,rs232\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart和rs232参数",
+      "Format": "String",
+      "Data": "config,get,uart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS485参数",
+      "Format": "String",
+      "Data": "config,get,rs485\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接状态",
+      "Format": "String",
+      "Data": "config,get,netstatus,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道1链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询通道2链接信息",
+      "Format": "String",
+      "Data": "config,get,netchaninfo,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道1链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "删除通道2链接信息",
+      "Format": "String",
+      "Data": "config,set,delnetchan,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "腾讯IOT分一机一密和一型一密",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "一型一密，设备名字必须用IMEI，开启自动注册，并且预加入,一个设备只能激活一次",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "一型一密",
+      "Format": "String",
+      "Data": "config,set,txnew,1,rs485,0,120,ap-guangzhuou,AUD7B3SM2C,EgYb0crMZIXWj4ROy2tl3vpo,1,0,$thing/down/raw/AUD7B3SM2C/${IMEI},$thing/up/raw/AUD7B3SM2C/${IMEI},0,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "config,set,txnew,1,rs485,1,120,ap-guangzhuou,AUD7B3SM2C,0000000000,1Y6aa4/eoDzZcenJl2mLcA==,1,0,$thing/down/raw/AUD7B3SM2C/0000000000,$thing/up/raw/AUD7B3SM2C/0000000000,0,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "Send_Width": 35,
+  "Name_Width": 163,
+  "Format_Width": 80,
+  "Data_Width": 209,
+  "Delay_Width": 70,
+  "Active_Width": 35,
+  "Add_Width": 35,
+  "Up_Width": 35,
+  "Down_Width": 35,
+  "Delete_Width": 35,
+  "Items": [
+    {
+      "Name": "读取IMEI",
+      "Format": "String",
+      "Data": "config,get,imei\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取iccid",
+      "Format": "String",
+      "Data": "config,get,iccid\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取固件版本",
+      "Format": "String",
+      "Data": "config,get,firmwarever\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取信号质量",
+      "Format": "String",
+      "Data": "config,get,csq\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步网络时间",
+      "Format": "String",
+      "Data": "config,get,nettime\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "同步基站定位",
+      "Format": "String",
+      "Data": "config,get,lbsloc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "读取电池电压",
+      "Format": "String",
+      "Data": "config,get,vbatt\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询密码",
+      "Format": "String",
+      "Data": "config,get,password\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询参数源",
+      "Format": "String",
+      "Data": "config,get,paramsrc\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "设置参数源为串口",
+      "Format": "String",
+      "Data": "config,set,paramsrc,2\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "打开log日志",
+      "Format": "String",
+      "Data": "config,set,log,1\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询ttluart参数",
+      "Format": "String",
+      "Data": "config,get,ttluart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS232参数",
+      "Format": "String",
+      "Data": "config,get,rs232\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询RS485参数",
+      "Format": "String",
+      "Data": "config,get,rs485\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "合并查询ttluart或者rs232参数air724系列大于1.1.2支持",
+      "Format": "String",
+      "Data": "config,get,uart\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "ttluart,1200,8位，无校验，1位停止，560ms超时",
+      "Format": "String",
+      "Data": "config,set,ttluart,1200,8,0,1,560\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "rs232,1200,8位，无校验，1位停止，560ms超时",
+      "Format": "String",
+      "Data": "config,set,rs232,1200,8,0,1,80\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "合并设置ttluart rs232 ,1200,8位，无校验，1位停止，560ms超时",
+      "Format": "String",
+      "Data": "config,set,uart,1200,8,0,1,80\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "rs485,1200,8位，无校验，1位停止，560ms超时,默认EN延迟5个波特率clk",
+      "Format": "String",
+      "Data": "config,set,rs485,1200,8,0,1,560\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "rs485,1200,8位，无校验，1位停止，560ms超时,EN延迟4200微秒",
+      "Format": "String",
+      "Data": "config,set,rs485,1200,8,0,1,560,4200\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "ttluart,921600,8位，无校验，1位停止，25超时",
+      "Format": "String",
+      "Data": "config,set,ttluart,921600,8,0,1,25\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "rs232,460800,8位，无校验，1位停止，25超时",
+      "Format": "String",
+      "Data": "config,set,rs232,460800,8,0,1,25\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "合并设置ttluart rs232 ,,460800,8位，无校验，1位停止，25超时",
+      "Format": "String",
+      "Data": "config,set,uart,460800,8,0,1,25\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "rs485,230400,8位，无校验，1位停止，25超时",
+      "Format": "String",
+      "Data": "config,set,rs485,230400,8,0,1,25\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "保存参数，设备会自动重启，并且参数生效",
+      "Format": "String",
+      "Data": "config,set,save\\r\\n",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    }
+  ]
+}
