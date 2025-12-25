@@ -38,7 +38,7 @@
   ..\Core\Inc\tim.hpp User\Algorithm\algorithm.hpp \
   User\Application\batVolt.hpp User\Application\periph_control.hpp \
   User\Application\low_power.hpp User\Bsp\bsp_adc.hpp \
-  User\Bsp\bsp_usart.hpp User\Bsp\bsp_rtc.hpp \
+  User\Bsp\bsp_usart.hpp User\System\config.hpp User\Bsp\bsp_rtc.hpp \
   User\Application\A7680C.hpp User\Algorithm\ring_queue.hpp \
   User\Application\bms.hpp User\Application\rgb.hpp \
   User\System\MillisTaskManager.h User\System\System.hpp \

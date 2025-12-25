@@ -5,6 +5,10 @@
 #include "adc.hpp"
 #include "can.hpp"
 #include "tim.hpp"
+#include "usart.hpp"
+#include "iic.hpp"
+#include "gpio.hpp"
+#include "dma.hpp"
 //#include "usart.h"
 //#include "rtc.h"
 
@@ -63,6 +67,6 @@ extern Periph_Control periph_control;
 
 extern bool flag_heartbeat;
 
-  
+
 
 

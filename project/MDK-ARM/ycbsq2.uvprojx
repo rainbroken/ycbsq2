@@ -711,11 +711,6 @@
           <GroupName>User/Bsp</GroupName>
           <Files>
             <File>
-              <FileName>bsp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\User\Bsp\bsp.cpp</FilePath>
-            </File>
-            <File>
               <FileName>bsp_adc.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\User\Bsp\bsp_adc.cpp</FilePath>
@@ -745,6 +740,11 @@
         <Group>
           <GroupName>User/System</GroupName>
           <Files>
+            <File>
+              <FileName>config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\System\config.cpp</FilePath>
+            </File>
             <File>
               <FileName>callback.cpp</FileName>
               <FileType>8</FileType>

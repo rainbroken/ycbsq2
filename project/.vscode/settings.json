@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "hk32f0xxa_it.h": "c",
+        "variables.hpp": "c",
+        "cstdint": "cpp",
+        "cstdarg": "cpp",
+        "cstring": "cpp",
+        "limits": "cpp",
+        "alltasks.hpp": "c",
+        "main.h": "c",
+        "oled_data.hpp": "c"
+    }
+}

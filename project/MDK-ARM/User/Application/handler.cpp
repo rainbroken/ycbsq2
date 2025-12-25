@@ -5,7 +5,7 @@
 bool hGet_IMEA(void)
 {
     char* start = nullptr;
-    char* end   = nullptr; 
+    char* end   = nullptr;
     uint8_t IMEI_Len = 0;
     start = strstr(a7680c_uart_msg.rxbuff, "+ICCID");
     if(start != nullptr)
@@ -18,7 +18,9 @@ bool hGet_IMEA(void)
         return true;
     }
     return false;
-}    
+}
+
+
 
 #if 0
 bool hGet_Time(void);               //获取下单时间

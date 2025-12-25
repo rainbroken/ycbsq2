@@ -81,8 +81,8 @@ void CAN1_Init(void)
     CAN_FilterInitStructure.CAN_FilterActivation = ENABLE;
     CAN_FilterInit(&CAN_FilterInitStructure);
 
-//    /* Enable FIFO 0 full  Interrupt */
-//    CAN_ITConfig(CAN_IT_FF0, ENABLE);
+   /* Enable FIFO 0 full  Interrupt */
+   CAN_ITConfig(CAN_IT_FF0, ENABLE);
 
 //    /* Enable FIFO 1 full  Interrupt */
 //    CAN_ITConfig(CAN_IT_FF1, ENABLE);

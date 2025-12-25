@@ -1,13 +1,30 @@
+/*
+ * @Author: RainBroken
+ * @Date: 2025-12-24 18:17:17
+ * @LastEditors: RainBroken
+ * @LastEditTime: 2025-12-25 10:08:43
+ * @FilePath: \project\MDK-ARM\User\System\callback.cpp
+ * @Description: 中断回调函数
+ *               中断触发函数一定要 extern "C"，否则有些会调用异常s
+ *
+ * Copyright (c) 2025 by RainBroken, All Rights Reserved.
+ */
+
 #include "callback.hpp"
 #include "variables.hpp"
+#include "main.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-void TIM6_Callback(void)
+/**
+ * @description: TIM6定时中断，触发频率 1000hz (1ms)
+ * @return {*}
+ */
+void TIM6_IRQHandler(void)
 {
-    if (TIM_GetITStatus(TIM6, TIM_IT_Update) != RESET) 
+    if (TIM_GetITStatus(TIM6, TIM_IT_Update) != RESET)
     {
         //系统走时++
         system_ms++;
@@ -15,22 +32,90 @@ void TIM6_Callback(void)
         TIM_ClearITPendingBit(TIM6, TIM_IT_Update);
     }
 }
-    
+
+/**
+ * @description: 串口1中断服务函数 (debug)
+ * @return {*}
+ */
+void USART1_IRQHandler(void)
+{
+    uint8_t rx_data;
+   //检查串口ORE
+   if (USART_GetFlagStatus(USART1, USART_FLAG_ORE) != RESET)
+   {
+        // 清除 ORE：先读 SR，再读 DR（标准清除流程）
+       volatile uint16_t tmp;
+       tmp = USART1->ISR;
+       tmp = USART1->RDR;
+       (void)tmp;                                  // 防止编译器优化
+       USART_ClearFlag(USART1, USART_FLAG_ORE);    //清除溢出中断
+   }
+
+    // 先检查是否有接收数据（RXNE）
+    if (USART_GetFlagStatus(USART1, USART_IT_RXNE) != RESET)
+    {
+        rx_data = USARTx_ReceiveData(USART1);
+        Uart1_Send(rx_data);
+        USART_ClearFlag(USART1, USART_FLAG_RXNE);
+        USART_ClearITPendingBit(USART1, USART_IT_RXNE);
+    }
+}
+
+/**
+ * @description: 串口2中断服务函数 (AT模块)
+ * @return {*}
+ */
+void USART2_IRQHandler(void)
+{
+    uint8_t rx_data;
+    //检查串口ORE
+    if (USART_GetFlagStatus(USART2, USART_FLAG_ORE) != RESET)
+    {
+        // 清除 ORE：先读 SR，再读 DR（标准清除流程）
+       volatile uint16_t tmp;
+       tmp = USART2->ISR;
+       tmp = USART2->RDR;
+       (void)tmp;                                  // 防止编译器优化
+       USART_ClearFlag(USART2, USART_FLAG_ORE);    //清除溢出中断
+    }
+
+    // 先检查是否有接收数据（RXNE）
+    if (USART_GetFlagStatus(USART2, USART_IT_RXNE) != RESET)
+    {
+        rx_data = USARTx_ReceiveData(USART2);
+#if A7680_RX_INT_PRINT
+        Uart1_Send(rx_data);
+#endif
+        a7680c_uart_msg.rxbuff[a7680c_uart_msg.rxcount++] = rx_data;
+        USART_ClearFlag(USART2, USART_FLAG_RXNE);
+        USART_ClearITPendingBit(USART2, USART_IT_RXNE);
+    }
+}
+
+
+/**
+  * @brief  Can接收中断服务函数
+  * @retval None
+  */
+void CAN_IRQHandler(void)
+{
+    if (CAN_MessagePending(CAN_FIFO0) != 0)
+    {
+
+    }
+
+    if (CAN_MessagePending(CAN_FIFO1) != 0)
+    {
+
+    }
+}
+
+
+
 #ifdef __cplusplus
 }
 #endif
 
-//void TIM6_IRQHandler(void) 
-//{
-//    if (TIM_GetITStatus(TIM6, TIM_IT_Update) != RESET) 
-//    {
-//        //系统走时++
-//        system_ms++;
-//        
-//        // 清除中断标志
-//        TIM_ClearITPendingBit(TIM6, TIM_IT_Update);
-//    }
-//}
 
 
 #if 0
@@ -127,7 +212,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             frame.dlc = RxHeader.DLC;
             memset(frame.data,0,8);                       //清空
             memcpy(frame.data,buf,RxHeader.DLC);          //重写
-            
+
             //将接收到的数据存进队列
             bms.queue_.push(&frame);
             if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)      //电压、温度
@@ -183,7 +268,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
             //将接收到的数据存进队列
             bms.queue_.push(&frame);
-            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)      
+            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)
             {
                 bms.poll_step = BCS_TPCM_EM;
                 bms.queue_.clear();
@@ -214,7 +299,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
             //将接收到的数据存进队列
             bms.queue_.push(&frame);
-            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)      
+            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)
             {
                 bms.poll_step = BMV_TPCM_EM;
                 bms.queue_.clear();
@@ -243,7 +328,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
             //将接收到的数据存进队列
             bms.queue_.push(&frame);
-            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)      
+            if(bms.queue_.getLen() == 2 && bms.queue_.buffer[0].data[0] ==0x01 && bms.queue_.buffer[1].data[0] ==0x02)
             {
                 bms.poll_step = BMT_TPCM_EM;
                 bms.queue_.clear();
@@ -262,7 +347,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             bms.poll_step = CSD;
         }
         break;
-        
+
     default:
         break;
     }

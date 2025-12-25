@@ -8,19 +8,19 @@ class RingQueue
 public:
     RingQueue() : in_(0), out_(0), length_(0) {}
     ~RingQueue() {  clear();    }
-    
+
     bool isFull(void)
     {
         if (length_==Capacity) return true;
         else            return false;
-    }        
-    
+    }
+
     bool isEmpty(void)
     {
         if (length_==0) return true;
         else            return false;
     }
-    
+
     bool push (const T* data)
     {
         if(!data)       return false;
@@ -32,48 +32,49 @@ public:
         length_++;
         return true;
     }
-    
+
     bool pop (T* data)
     {
         if(!data)       return false;
         if(isEmpty())   return false;
         //³ö¶Ó
-//        memcpy(data, &buffer[out_], sizeof(T));
-        *data = buffer[out_];
+       memcpy(data, &buffer[out_], sizeof(T));
+        // *data = buffer[out_];
         out_ = (++out_)%Capacity;
         length_--;
         return true;
     }
-    
+
     void front(T* data)
     {
         if(!data)       return;
         if(isEmpty())   return;
-//        memcpy(data, &buffer[out_], sizeof(T));
-        *data = buffer[out_];
+        memcpy(data, &buffer[out_], sizeof(T));
+        // *data = buffer[out_];
     }
-    
+
     void back(T* data)
     {
         if(!data)       return;
         if(isEmpty())   return;
-        *data = buffer[in_];
+        memcpy(data, &buffer[out_], sizeof(T));
+        // *data = buffer[in_];
     }
-    
+
     void clear(void)
     {
         in_     = 0;
         out_    = 0;
         length_ = 0;
     }
-    
+
     uint8_t getLen(void)
     {
         return length_;
     }
-    
+
     T buffer[Capacity];
-    
+
 private:
     uint8_t in_;
     uint8_t out_;

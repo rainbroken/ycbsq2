@@ -46,7 +46,7 @@ void HardFault_Handler(void)
     /* Go to infinite loop when Hard Fault exception occurs */
     while (1)
     {
-        
+
     }
 }
 
@@ -86,18 +86,18 @@ void SysTick_Handler(void)
   * @brief  This function handles CAN request.
   * @retval None
   */
-void CAN_IRQHandler(void)
-{
-    if (CAN_MessagePending(CAN_FIFO0) != 0)
-    {
-        
-    }
+//void CAN_IRQHandler(void)
+//{
+//    if (CAN_MessagePending(CAN_FIFO0) != 0)
+//    {
 
-    if (CAN_MessagePending(CAN_FIFO1) != 0)
-    {
-        
-    }
-}
+//    }
+
+//    if (CAN_MessagePending(CAN_FIFO1) != 0)
+//    {
+
+//    }
+//}
 
 /**
   * @brief  This function handles EXTI 6 request.
@@ -123,35 +123,6 @@ void EXTI0_1_IRQHandler(void)
 
 
 
-void TIM6_IRQHandler(void) 
-{
-    TIM6_Callback();
-}
-
-uint8_t datar = 0;
-uint8_t ore_flag = 0;
-void USART1_IRQHandler(void)
-{
-//    //检查串口ORE
-//    if (USART_GetFlagStatus(USART1, USART_FLAG_ORE) != RESET)
-//    {
-//         // 清除 ORE：先读 SR，再读 DR（标准清除流程）
-//        volatile uint16_t tmp;
-//        tmp = USART1->ISR;
-//        tmp = USART1->RDR;
-//        (void)tmp;                                  // 防止编译器优化
-//        USART_ClearFlag(USART1, USART_FLAG_ORE);    //清除溢出中断
-//    }
-    
-    // 先检查是否有接收数据（RXNE）
-    if (USART_GetFlagStatus(USART1, USART_IT_RXNE) != RESET)
-    {
-        datar = USARTx_ReceiveData(USART1);
-        Uart1_Send(datar);
-        USART_ClearFlag(USART1, USART_FLAG_RXNE);
-        USART_ClearITPendingBit(USART1, USART_IT_RXNE);
-    }
-}
 
 /**
   * @}

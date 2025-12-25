@@ -4,12 +4,7 @@
 
 volatile uint32_t log_cnt = 0;
 
-#if 0
-void bspUartInit(void)
-{
-    __HAL_UART_ENABLE_IT(&CAT1_USART_PORT,UART_IT_RXNE);
-}
-#endif
+
 
 /**
  * @description: 串口1发送单字节数据
@@ -61,7 +56,7 @@ void Uart2_print(uint8_t* str)
   * @param  { char* } format 格式化字符串
   * @retval None
   */
-void uart_print(char* format, ...)
+void uart1_log_format(char* format, ...)
 {
     uint8_t str[64];
       va_list aptr;

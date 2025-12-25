@@ -1,0 +1,69 @@
+/*
+* @file name: HK32F04AxxxxA_SDK_Update_Version
+* @description: 本文件是用来描述HK32F04AxxxxA系列芯片SDK的版本变更
+* Boards：基于xxxBoard的Bsp源代码
+* Documents：数据手册、用户手册、应用笔记、库函数API HTML文件、原理图、PCB文件
+* Libraries：函数库
+* Package：Keil/IAR器件库
+* Projects：基于xxxBoard的例程源代码
+* @author: AE Team
+*/
+
+V1.0.4/2025-02-25
+1.Kei_Pack: HK32F0xxA_Keil_pack_V1.0.0
+2.IAR_Pack: HK32F0xxA_IAR_pack_V1.0.0
+3.Libraries: Libraries_V1.0.2
+4.Example: Board_HK32F0xxA_EVAL_V1.0.1
+5.Datasheet: HK32F04AxxxxA数据手册_V1.9,HK32F04AxxxxA Datasheet_V1.0
+6.UserManual: HK32F04AxxxxA用户手册_V2.3
+7.ApplicationNotes: HK32F04AxxxxA系列应用笔记_V1.0.11.docx
+8.API: HK32F0xxA_API_V1.0.0
+9.开发板: Validation Board_V1.0.0
+
+
+V1.0.3/2024-11-25
+1.Kei_Pack: HK32F0xxA_Keil_pack_V1.0.0
+2.IAR_Pack: HK32F0xxA_IAR_pack_V1.0.0
+3.Libraries: Libraries_V1.0.2
+4.Example: Board_HK32F0xxA_EVAL_V1.0.1
+5.Datasheet: HK32F04AxxxxA数据手册_V1.9,HK32F04AxxxxA Datasheet_V1.0
+6.UserManual: HK32F04AxxxxA用户手册_V2.3
+7.ApplicationNotes: HK32F04AxxxxA系列应用笔记_V1.0.9.docx
+8.API: HK32F0xxA_API_V1.0.0
+9.开发板: Validation Board_V1.0.0
+
+
+V1.0.2/2024-08-27
+1.Kei_Pack: HK32F0xxA_Keil_pack_V1.0.0
+2.IAR_Pack: HK32F0xxA_IAR_pack_V1.0.0
+3.Libraries: Libraries_V1.0.1
+4.Example: Board_HK32F0xxA_EVAL_V1.0.1
+5.Datasheet: HK32F04AxxxxA数据手册_V1.8,HK32F04AxxxxA Datasheet_V1.0
+6.UserManual: HK32F04AxxxxA用户手册_V2.3
+7.ApplicationNotes: HK32F04AxxxxA系列应用笔记_V1.0.7.docx
+8.API: HK32F0xxA_API_V1.0.0
+9.开发板: Validation Board_V1.0.0
+
+
+V1.0.1/2024-06-26
+1.Kei_Pack: HK32F0xxA_Keil_pack_V1.0.0
+2.IAR_Pack: HK32F0xxA_IAR_pack_V1.0.0
+3.Libraries: Libraries_V1.0.1
+4.Example: Board_HK32F0xxA_EVAL_V1.0.1
+5.Datasheet: HK32F04AxxxxA数据手册_V1.8
+6.UserManual: HK32F04AxxxxA用户手册_V2.2
+7.ApplicationNotes: HK32F04AxxxxA系列应用笔记_V1.0.7.docx
+8.API: HK32F0xxA_API_V1.0.0
+9.开发板: Validation Board_V1.0.0
+
+
+V1.0.0/2023-12-11
+1.Kei_Pack: HK32F0xxA_Keil_pack_V1.0.0
+2.IAR_Pack: HK32F0xxA_IAR_pack_V1.0.0
+3.Libraries: Libraries_V1.0.0
+4.Example: Board_HK32F0xxA_EVAL_V1.0.0
+5.Datasheet: HK32F04AxxxxA Datasheet_V1.0,HK32F04AxxxxA数据手册_V1.7
+6.UserManual: HK32F04AxxxxA用户手册_V2.1
+7.ApplicationNotes: HK32F04AxxxxA系列应用笔记_V1.0.2.docx
+8.API: HK32F0xxA_API_V1.0.0
+9.开发板: Validation Board_V1.0.0

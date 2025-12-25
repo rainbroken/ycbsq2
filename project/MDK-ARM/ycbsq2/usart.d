@@ -33,4 +33,4 @@
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h \
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h \
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h \
-  ..\Core\Inc\main.h
+  ..\Core\Inc\main.h User\System\config.hpp

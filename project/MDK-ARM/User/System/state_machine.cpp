@@ -10,7 +10,7 @@ void systemStateMachine::running()
         SystemReInit();
         systemState_ = sms_DETECT_CAR;  //状态机切换模式:检测BMS握手
         break;
-    
+
 // 2.检测与BMS握手
     case sms_DETECT_CAR:
         //握手成功，进入bms读取
@@ -20,7 +20,7 @@ void systemStateMachine::running()
         else
             systemState_ = sms_DETECT_OTA;
         break;
-        
+
 // 3.握手成功，进行bms读取任务，同时阻塞所有进程 <待优化>
     case sms_BMS:
         if(bms.read_suc == false)
@@ -34,8 +34,8 @@ void systemStateMachine::running()
             systemState_ = sms_CONNECT_MQTT;
         }
         break;
-        
-// 4.联网，准备上报 
+
+// 4.联网，准备上报
     case sms_CONNECT_MQTT:
         a7680c.ConnectMqtt();
         //等待联网成功
@@ -45,31 +45,32 @@ void systemStateMachine::running()
         }
         break;
 
+// 5.发布指令码
     case sms_PUBLISH_ORDER:
 //        a7680c.
         break;
-    
-    case sms_GET_ORDER_CODE:         
+
+    case sms_GET_ORDER_CODE:
         break;
-    
-    case sms_PUBLISH_PAYLOAD:        
+
+    case sms_PUBLISH_PAYLOAD:
         break;
-    
-    case sms_PUBLISH_HEARTBEAR:      
+
+    case sms_PUBLISH_HEARTBEAR:
         break;
-    
-    case sms_DETECT_OTA:             
+
+    case sms_DETECT_OTA:
         break;
-    
-    case sms_OTA_UPDATE:             
+
+    case sms_OTA_UPDATE:
         break;
-    
-    case sms_SLEEP:                  
+
+    case sms_SLEEP:
         break;
-    
+
     case sms_ERROR:
         break;
-    
+
     default:
         break;
     }

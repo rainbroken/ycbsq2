@@ -42,7 +42,7 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
 I (..\Core\Inc\adc.hpp)(0x6946E474)
 I (..\Core\Inc\can.hpp)(0x69456A7D)
 I (..\Core\Inc\tim.hpp)(0x6949ED46)
-I (..\Core\Inc\usart.hpp)(0x69456A88)
+I (..\Core\Inc\usart.hpp)(0x694C9D70)
 I (..\Core\Inc\iic.hpp)(0x69456A84)
 I (..\Core\Inc\gpio.hpp)(0x69456A78)
 I (..\Core\Inc\dma.hpp)(0x69475DC9)
@@ -53,10 +53,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -214,8 +215,8 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
-F (..\Core\Src\usart.cpp)(0x694BD88C)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/usart.o -MMD)
-I (..\Core\Inc\usart.hpp)(0x69456A88)
+F (..\Core\Src\usart.cpp)(0x694C9DFE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/usart.o -MMD)
+I (..\Core\Inc\usart.hpp)(0x694C9D70)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cm0.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cmInstr.h)(0x6944F3A4)
@@ -251,7 +252,8 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
 I (..\Core\Inc\main.h)(0x6946D72E)
-F (..\Core\Src\iic.cpp)(0x694BD8A2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/iic.o -MMD)
+I (User\System\config.hpp)(0x694C9D2C)
+F (..\Core\Src\iic.cpp)(0x694BD8BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/iic.o -MMD)
 I (..\Core\Inc\iic.hpp)(0x69456A84)
 I (..\Core\Inc\main.h)(0x6946D72E)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -323,7 +325,7 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
-F (..\Core\Src\hk32f0xxa_it.c)(0x694BD86E)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/hk32f0xxa_it.o -MMD)
+F (..\Core\Src\hk32f0xxa_it.c)(0x694C9739)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/hk32f0xxa_it.o -MMD)
 I (..\Core\Inc\hk32f0xxa_it.h)(0x6944F3A4)
 I (..\Core\Inc\main.h)(0x6946D72E)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -370,10 +372,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -1595,10 +1598,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -1607,13 +1611,13 @@ I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
 F (.\User\Algorithm\ring_queue.cpp)(0x6944F3A4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/ring_queue.o -MMD)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 F (.\User\Algorithm\string_algorithm.cpp)(0x6944F3A4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/string_algorithm.o -MMD)
 I (User\Algorithm\string_algorithm.hpp)(0x6944F3A4)
 F (.\User\Application\A7680C.cpp)(0x6949F9A2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/a7680c.o -MMD)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
 I (..\Core\Inc\main.h)(0x6946D72E)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cm0.h)(0x6944F3A4)
@@ -1649,6 +1653,7 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Core\Inc\adc.hpp)(0x6946E474)
 I (..\Core\Inc\can.hpp)(0x69456A7D)
@@ -1714,10 +1719,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -1727,7 +1733,7 @@ I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
 F (.\User\Application\bms.cpp)(0x69456EBE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bms.o -MMD)
 I (User\Application\bms.hpp)(0x6944F3A4)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -1773,7 +1779,8 @@ I (User\Application\batVolt.hpp)(0x6944F3A4)
 I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
 I (User\Application\rgb.hpp)(0x6944F3A4)
@@ -1782,7 +1789,7 @@ I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-F (.\User\Application\handler.cpp)(0x6948FA09)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/handler.o -MMD)
+F (.\User\Application\handler.cpp)(0x694C9C96)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/handler.o -MMD)
 I (User\Application\handler.hpp)(0x6944F3A4)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -1829,10 +1836,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -1886,10 +1894,11 @@ I (User\Application\batVolt.hpp)(0x6944F3A4)
 I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -1897,7 +1906,7 @@ I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-I (..\Core\Inc\usart.hpp)(0x69456A88)
+I (..\Core\Inc\usart.hpp)(0x694C9D70)
 I (..\Core\Inc\gpio.hpp)(0x69456A78)
 F (.\User\Application\periph_control.cpp)(0x69456EBE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/periph_control.o -MMD)
 I (User\Application\periph_control.hpp)(0x6944F3A4)
@@ -1945,10 +1954,11 @@ I (User\Algorithm\algorithm.hpp)(0x6944F3A4)
 I (User\Application\batVolt.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2004,10 +2014,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
 I (User\System\System.hpp)(0x694BA04A)
@@ -2053,8 +2064,6 @@ I (User\Application\OLED.hpp)(0x694BD6BB)
 I (User\Application\OLED_Data.hpp)(0x694BD2E3)
 F (.\User\Application\OLED_Data.cpp)(0x694BD2FF)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/oled_data.o -MMD)
 I (User\Application\OLED_Data.hpp)(0x694BD2E3)
-F (.\User\Bsp\bsp.cpp)(0x6944F3A4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp.o -MMD)
-I (User\Bsp\bsp.hpp)(0x6944F3A4)
 F (.\User\Bsp\bsp_adc.cpp)(0x6947530E)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp_adc.o -MMD)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\System\variables.hpp)(0x69456ED3)
@@ -2101,10 +2110,11 @@ I (User\Application\batVolt.hpp)(0x6944F3A4)
 I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2158,10 +2168,11 @@ I (User\Application\batVolt.hpp)(0x6944F3A4)
 I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2169,7 +2180,7 @@ I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-F (.\User\Bsp\bsp_key.cpp)(0x69456EBE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp_key.o -MMD)
+F (.\User\Bsp\bsp_key.cpp)(0x694C9C3C)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp_key.o -MMD)
 I (User\Bsp\bsp_key.hpp)(0x6944F3A4)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -2216,10 +2227,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2227,8 +2239,8 @@ I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-F (.\User\Bsp\bsp_usart.cpp)(0x6946BBFE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp_usart.o -MMD)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+F (.\User\Bsp\bsp_usart.cpp)(0x694C9AD2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bsp_usart.o -MMD)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
 I (..\Core\Inc\main.h)(0x6946D72E)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cm0.h)(0x6944F3A4)
@@ -2264,6 +2276,7 @@ I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_can.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_clu.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h)(0x6944F3A4)
 I (..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h)(0x6944F3A4)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Core\Inc\adc.hpp)(0x6946E474)
 I (..\Core\Inc\can.hpp)(0x69456A7D)
@@ -2276,7 +2289,7 @@ I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2331,10 +2344,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2342,7 +2356,9 @@ I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-F (.\User\System\callback.cpp)(0x694BCA28)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/callback.o -MMD)
+F (.\User\System\config.cpp)(0x694C9BE5)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/config.o -MMD)
+I (User\System\config.hpp)(0x694C9D2C)
+F (.\User\System\callback.cpp)(0x694C9E14)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/callback.o -MMD)
 I (User\System\callback.hpp)(0x694BD816)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -2389,10 +2405,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2402,7 +2419,7 @@ I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
 F (.\User\System\MillisTaskManager.cpp)(0x6944F3A4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/millistaskmanager.o -MMD)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
-F (.\User\System\state_machine.cpp)(0x69457A42)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/state_machine.o -MMD)
+F (.\User\System\state_machine.cpp)(0x694C9B7E)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/state_machine.o -MMD)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -2449,10 +2466,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2506,10 +2524,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2562,10 +2581,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2576,7 +2596,7 @@ I (User\Task\main_task.hpp)(0x6944F3A4)
 F (.\User\Task\A7680_Task.cpp)(0x694BA1A3)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/a7680_task.o -MMD)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cm0.h)(0x6944F3A4)
@@ -2622,7 +2642,8 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
@@ -2633,7 +2654,7 @@ I (User\Task\main_task.hpp)(0x6944F3A4)
 F (.\User\Task\bms_task.cpp)(0x69456EBE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/bms_task.o -MMD)
 I (User\Task\AllTasks.hpp)(0x6944F3A4)
 I (User\Application\bms.hpp)(0x6944F3A4)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
 I (..\Drivers\CMSIS\CM0\Core\core_cm0.h)(0x6944F3A4)
@@ -2679,7 +2700,8 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
 I (User\Application\rgb.hpp)(0x6944F3A4)
@@ -2687,7 +2709,7 @@ I (User\System\MillisTaskManager.h)(0x6944F3A4)
 I (User\System\System.hpp)(0x694BA04A)
 I (User\System\state_machine.hpp)(0x6944F3A4)
 I (User\Task\main_task.hpp)(0x6944F3A4)
-F (.\User\Task\main_task.cpp)(0x694572C6)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/main_task.o -MMD)
+F (.\User\Task\main_task.cpp)(0x694C9B31)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/HK32F0xxA/Include -I ../Drivers/HK32F0xxA_StdPeriphDriver/inc -I ../Drivers/CMSIS/CM0/Core -I ../Core/Inc -I ../Boards/Board_HK32F0xxA_EVAL -I ./User/Algorithm -I ./User/Application -I ./User/Bsp -I ./User/System -I ./User/Task -Wno-deprecated-register-D__UVISION_VERSION="541" -DUSE_STDPERIPH_DRIVER -DHK32F04AxxA -DUSE_HK32F0xxA_EVAL-o ./ycbsq2/main_task.o -MMD)
 I (User\Task\main_task.hpp)(0x6944F3A4)
 I (User\System\variables.hpp)(0x69456ED3)
 I (..\Drivers\CMSIS\HK32F0xxA\Include\hk32f04axxA.h)(0x6944F3A4)
@@ -2734,10 +2756,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)
@@ -2793,10 +2816,11 @@ I (User\Application\periph_control.hpp)(0x6944F3A4)
 I (User\Application\low_power.hpp)(0x6944F3A4)
 I (User\Bsp\bsp_adc.hpp)(0x694751D5)
 I (User\Bsp\bsp_can.hpp)(0x6944F8B8)
-I (User\Bsp\bsp_usart.hpp)(0x6946BC83)
+I (User\Bsp\bsp_usart.hpp)(0x694C9AF7)
+I (User\System\config.hpp)(0x694C9D2C)
 I (User\Bsp\bsp_rtc.hpp)(0x6944F3A4)
 I (User\Application\A7680C.hpp)(0x6949F121)
-I (User\Algorithm\ring_queue.hpp)(0x694A82D4)
+I (User\Algorithm\ring_queue.hpp)(0x694C9A69)
 I (User\Application\bms.hpp)(0x6944F3A4)
 I (User\Application\rgb.hpp)(0x6944F3A4)
 I (User\System\MillisTaskManager.h)(0x6944F3A4)

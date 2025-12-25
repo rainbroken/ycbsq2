@@ -4,7 +4,7 @@
 void bspRtcSetAlarm(uint8_t hour, uint8_t min, uint8_t second)
 {
     RTC_AlarmTypeDef aTime;
- 
+
     //ÉèÖÃÄÖÖÓ
     aTime.Alarm = 0;
     aTime.AlarmTime.Hours = 0x01;
