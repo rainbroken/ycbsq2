@@ -16,7 +16,6 @@ void fun2(void)
 
 void main_setup(void)
 {
-
     uint8_t data[8] = {0x01,0x02,0x03,0x04,0x05 ,0x06,0x07,0x08};
 // systick ≈‰÷√1ms÷–∂œ
 //    SystemInit();
@@ -37,21 +36,18 @@ void main_setup(void)
 //    a7680c.GetIMEI();
 //    at_fsm_t *fsm =  a7680c.GetFsmHandle_();
     a7680c.SetCmdAck("AT\r",            "OK",   200, 3, nullptr);
-    a7680c.queue_.front(&a7680c.fsm_);
-    a7680c.SendCmd();
+//    a7680c.queue_.front(&a7680c.fsm_);
+//    a7680c.SendCmd();
 
-//    mtmMain.Register(A7680Task,200);
+    mtmMain.Register(A7680Task,200);
 //    mtmMain.Register(fun1,500);
-//    mtmMain.Register(fun2,1000);
+    mtmMain.Register(fun2,1000);
 //    log_info("start");
-    
-    
-        
 
-//    for(;;)
-//    {
-//       bspCanSend(0x1826F456,data,8);
-//    }
+    for(;;) 
+        mtmMain.Running(millis());
+    
+
     
 }
 

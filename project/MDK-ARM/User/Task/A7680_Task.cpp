@@ -18,68 +18,69 @@ void at_fsm_run(A7680C *a7680_)
     }
     
     //获取句柄
-    at_fsm_t *fsm =  a7680_->GetFsmHandle_();
-    log_info("current_state = %d",fsm->current_state);
+//    at_fsm_t *a7680_->fsm_ =  a7680_->GetFsmHandle_();
+    log_info("current_state = %d",a7680_->fsm_.current_state);
     
-    switch(fsm->current_state) 
+    switch(a7680_->fsm_.current_state) 
     {
 //句柄出队
     case STATE_IDLE:
         //检测发送队列是否存留消息
         if(a7680_->GetQueueLen() != 0)
         {
-            a7680_->queue_.front(fsm);
-            fsm->current_state = STATE_SEND_CMD;
+            a7680_->queue_.front(&a7680_->fsm_);
+            a7680_->fsm_.current_state = STATE_SEND_CMD;
         }
         break;
             
     case STATE_SEND_CMD:
         a7680_->SendCmd();
-        fsm->current_state = STATE_WAIT_ACK;
+        a7680_->fsm_.current_state = STATE_WAIT_ACK;
         break;
         
     case STATE_WAIT_ACK:
         //若已经收到回复,则重置状态
         if (a7680_->CheckFsmAck() == true)   
         {
-            fsm->current_state = STATE_PARSE;
-            fsm->retry_count = 0;
+            log_info("check ok");
+            a7680_->fsm_.current_state = STATE_PARSE;
+            a7680_->fsm_.retry_count = 0;
         } 
         //没收到回复，继续等 &检测超时
         else
         {
-            fsm->retry_count++ ;
+            a7680_->fsm_.retry_count++ ;
             //未超过尝试次数，准备重新发送
-            if(fsm->retry_count < fsm->max_try)
+            if(a7680_->fsm_.retry_count < a7680_->fsm_.max_try)
             {
-                fsm->current_state = STATE_SEND_CMD;
+                a7680_->fsm_.current_state = STATE_SEND_CMD;
             }
             //超过尝试次数，进入超时处理
             else 
             {
-                fsm->current_state = STATE_TIMEOUT;
+                a7680_->fsm_.current_state = STATE_TIMEOUT;
             }
         }
         break;
 //数据解析
     case STATE_PARSE:
         //需要解析数据
-        if(fsm->parse_handler != nullptr)
+        if(a7680_->fsm_.parse_handler != nullptr)
         {
             //解析完毕
-            if(fsm->parse_handler())
+            if(a7680_->fsm_.parse_handler())
             {
-                fsm->parse_suc = true;
-                fsm->current_state = STATE_SUCCESS;
+                a7680_->fsm_.parse_suc = true;
+                a7680_->fsm_.current_state = STATE_SUCCESS;
             }
             else
-                fsm->current_state = STATE_ERR;
+                a7680_->fsm_.current_state = STATE_ERR;
         }
         //不需要解析数据
         else
         {
-            fsm->parse_suc = true;
-            fsm->current_state = STATE_SUCCESS;
+            a7680_->fsm_.parse_suc = true;
+            a7680_->fsm_.current_state = STATE_SUCCESS;
         }
         break;
         
