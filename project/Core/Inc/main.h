@@ -121,17 +121,15 @@ extern "C" {
 #define USART1_AF_TX_SOURCE              GPIO_PinSource9
 #define USART1_TXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* TX IO clock Enable */
 #define USART1_TXIO_CLK                  RCC_AHBPeriph_GPIOA
-#define USART1_TX_AF                     GPIO_AF_1
-             
+
 #define USART1_RXIO_PORT                 GPIOA
 #define USART1_RX_PIN                    GPIO_Pin_10
 #define USART1_AF_RX_SOURCE              GPIO_PinSource10
 #define USART1_RXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* RX IO clock Enable */
 #define USART1_RXIO_CLK                  RCC_AHBPeriph_GPIOA
-#define USART1_RX_AF                     GPIO_AF_1
-             
+
 #define USART1_AF_SELECT                 GPIO_AF_1               /* AFIO SELECT Reference datasheet 6.8 table*/
-             
+
 
 /*  USART2  */
 #define USART2_COM                       USART2
@@ -143,29 +141,27 @@ extern "C" {
 #define USART2_AF_TX_SOURCE              GPIO_PinSource2
 #define USART2_TXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* TX IO clock Enable */
 #define USART2_TXIO_CLK                  RCC_AHBPeriph_GPIOA
-#define USART2_TX_AF                     GPIO_AF_3
-             
+
 #define USART2_RXIO_PORT                 GPIOA
 #define USART2_RX_PIN                    GPIO_Pin_3
 #define USART2_AF_RX_SOURCE              GPIO_PinSource3
 #define USART2_RXIO_CLK_CMD              RCC_AHBPeriphClockCmd   /* RX IO clock Enable */
 #define USART2_RXIO_CLK                  RCC_AHBPeriph_GPIOA
-#define USART2_RX_AF                     GPIO_AF_3
-             
+
 #define USART2_AF_SELECT                 GPIO_AF_3               /* AFIO SELECT */
 
 //I2Cx
 #define I2C2_COMx                          I2C2
 #define I2C2_COMx_CLK                      RCC_APB1Periph_I2C2
 #define I2C2_RCC_CLK_HSI                   RCC_I2C2CLK_HSI
-           
+
 #define I2C2_COMx_SCL_PIN                  GPIO_Pin_10                  /* PB.06 */
 #define I2C2_COMx_SCL_IO_PORT              GPIOB                       /* GPIOB */
 #define I2C2_COMx_SCL_SOURCE               GPIO_PinSource10
 #define I2C2_COMx_SCL_AF                   GPIO_AF_10
 #define I2C2_COMx_SCLIO_CLKCMD             RCC_APB1PeriphClockCmd
 #define I2C2_COMx_SCL_IO_CLK               RCC_AHBPeriph_GPIOB
-           
+
 #define I2C2_COMx_SDA_PIN                  GPIO_Pin_11                  /* PB.07 */
 #define I2C2_COMx_SDA_IO_PORT              GPIOB                       /* GPIOB */
 #define I2C2_COMx_SDA_SOURCE               GPIO_PinSource11

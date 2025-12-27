@@ -3,6 +3,10 @@
 #include <ctime>
 #include "ring_queue.hpp"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define QUEUE_SIZE 30
 
 #define username       "admin"
@@ -89,9 +93,10 @@ public:
 
 
 
-private:
     at_fsm_t fsm_;              //ATÈÎÎñ×´Ì¬¾ä±ú
+private:
     
-
-
 };    
+#ifdef __cplusplus
+}
+#endif

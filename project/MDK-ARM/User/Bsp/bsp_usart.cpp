@@ -2,6 +2,10 @@
 #include "variables.hpp"
 #include <cstdarg>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+    
 volatile uint32_t log_cnt = 0;
 
 
@@ -25,7 +29,7 @@ void Uart1_Send(uint8_t data)
  */
 void Uart2_Send(uint8_t data)
 {
-    while((USART1->ISR & 0x80) == RESET);
+    while((USART2->ISR & 0x80) == RESET);
     USART2->TDR = data;
 }
 
@@ -97,3 +101,7 @@ uint8_t USARTx_ReceiveData(USART_TypeDef *huartx)
 
 //    return (ch);
 //}
+
+#ifdef __cplusplus
+}
+#endif

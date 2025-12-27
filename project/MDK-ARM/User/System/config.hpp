@@ -1,7 +1,9 @@
 #pragma once
 
 /*串口1 debug 功能 */
-#define UART1_RE_PRINTF   0
+#define UART1_RE_PRINTF   1
+//使能串口dma接收（未实现）
+#define UART1_DMA_RX      0
 
 #define LOG_INFO    1
 #define LOG_DEBUG   1

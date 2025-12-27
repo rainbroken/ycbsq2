@@ -29,13 +29,42 @@ Project File Date:  12/25/2025
 Build target 'ycbsq2'
 Note: source file '..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04axxa.s' - object file renamed from '.\ycbsq2\startup_hk32f04axxa.o' to '.\ycbsq2\startup_hk32f04axxa_1.o'.
 Note: source file '..\Drivers\CMSIS\HK32F0xxA\Source\ARM\startup_hk32f04axxa.s' - object file renamed from '.\ycbsq2\startup_hk32f04axxa.o' to '.\ycbsq2\startup_hk32f04axxa_1.o'.
-compiling callback.cpp...
+User/Task/main_task.cpp(9): warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+    9 |     log_info("hello");
+      |     ^
+./User/Bsp\bsp_usart.hpp(20): note: expanded from macro 'log_info'
+   20 | #define log_info(format, ...)  uart1_log_format("[info %d][%s]:" format "\r\n", log_cnt++, __func__, ##__VA_ARGS__)
+      |                                                 ^
+User/Task/main_task.cpp(13): warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+   13 |     log_info("----------");
+      |     ^
+./User/Bsp\bsp_usart.hpp(20): note: expanded from macro 'log_info'
+   20 | #define log_info(format, ...)  uart1_log_format("[info %d][%s]:" format "\r\n", log_cnt++, __func__, ##__VA_ARGS__)
+      |                                                 ^
+User/Task/main_task.cpp(62): warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+   62 |         log_info("%d, %s",a7680c_uart_msg.rxcount,a7680c_uart_msg.rxbuff);
+      |         ^
+./User/Bsp\bsp_usart.hpp(20): note: expanded from macro 'log_info'
+   20 | #define log_info(format, ...)  uart1_log_format("[info %d][%s]:" format "\r\n", log_cnt++, __func__, ##__VA_ARGS__)
+      |                                                 ^
+User/Task/main_task.cpp(65): warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+   65 |             log_info("suc");
+      |             ^
+./User/Bsp\bsp_usart.hpp(20): note: expanded from macro 'log_info'
+   20 | #define log_info(format, ...)  uart1_log_format("[info %d][%s]:" format "\r\n", log_cnt++, __func__, ##__VA_ARGS__)
+      |                                                 ^
+User/Task/main_task.cpp(68): warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+   68 |             log_info("fail");
+      |             ^
+./User/Bsp\bsp_usart.hpp(20): note: expanded from macro 'log_info'
+   20 | #define log_info(format, ...)  uart1_log_format("[info %d][%s]:" format "\r\n", log_cnt++, __func__, ##__VA_ARGS__)
+      |                                                 ^
+5 warnings generated.
+compiling main_task.cpp...
 linking...
-.\ycbsq2\ycbsq2.axf: Error: L6200E: Symbol CAN_IRQHandler multiply defined (by callback.o and hk32f0xxa_it.o).
-Not enough information to list image symbols.
-Not enough information to list load addresses in the image map.
-Finished: 2 information, 0 warning and 1 error messages.
-".\ycbsq2\ycbsq2.axf" - 1 Error(s), 0 Warning(s).
+Program Size: Code=12228 RO-data=796 RW-data=0 ZI-data=5176  
+FromELF: creating hex file...
+".\ycbsq2\ycbsq2.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -47,7 +76,6 @@ Package Vendor: HKMicroChip
 <h2>Collection of Component include folders:</h2>
 
 <h2>Collection of Component Files used:</h2>
-Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

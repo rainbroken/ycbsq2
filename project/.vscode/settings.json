@@ -8,6 +8,9 @@
         "limits": "cpp",
         "alltasks.hpp": "c",
         "main.h": "c",
-        "oled_data.hpp": "c"
+        "oled_data.hpp": "c",
+        "can.hpp": "c",
+        "bsp_usart.hpp": "c",
+        "tim.hpp": "c"
     }
 }

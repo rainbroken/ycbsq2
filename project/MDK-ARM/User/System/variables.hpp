@@ -55,6 +55,12 @@
 #define CAT1_USART_PORT         huart2
 #define GPS_USART_PORT          huart3
 
+#define BUFFER_SIZE 256
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 extern uart_message a7680c_uart_msg;
 extern volatile uint32_t system_ms;
 extern MillisTaskManager mtmMain;
@@ -67,6 +73,13 @@ extern Periph_Control periph_control;
 
 extern bool flag_heartbeat;
 
+//串口dma
+extern uint8_t rx_buffer[BUFFER_SIZE];  // 接收数据缓存
+extern uint16_t rx_len;             // 实际接收长度
+
+#ifdef __cplusplus
+}
+#endif
 
 
 

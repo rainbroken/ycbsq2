@@ -36,7 +36,8 @@
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h \
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h \
   ..\Core\Inc\main.h ..\Core\Inc\adc.hpp ..\Core\Inc\can.hpp \
-  ..\Core\Inc\tim.hpp User\Algorithm\algorithm.hpp \
+  ..\Core\Inc\tim.hpp ..\Core\Inc\usart.hpp ..\Core\Inc\iic.hpp \
+  ..\Core\Inc\gpio.hpp ..\Core\Inc\dma.hpp User\Algorithm\algorithm.hpp \
   User\Application\batVolt.hpp User\Application\periph_control.hpp \
   User\Application\low_power.hpp User\Bsp\bsp_adc.hpp \
   User\Bsp\bsp_can.hpp User\Bsp\bsp_usart.hpp User\System\config.hpp \

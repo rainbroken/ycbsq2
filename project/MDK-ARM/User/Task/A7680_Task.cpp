@@ -5,6 +5,10 @@
 //最大尝试次数
 //#define     MAX_RETRY   5 
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void at_fsm_run(A7680C *a7680_) 
 {
     if(a7680_ == nullptr)
@@ -105,4 +109,8 @@ void A7680Task(void)
 {
     at_fsm_run(&a7680c);
 }
+
+#ifdef __cplusplus
+}
+#endif
 

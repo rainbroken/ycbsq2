@@ -39,7 +39,7 @@ extern "C" {
 extern volatile uint32_t log_cnt;
 
 const uint16_t  kAirSendSize           = 500;
-const uint16_t  kAirRecvSize           = 1200;
+const uint16_t  kAirRecvSize           = 500;
 typedef struct
 {
     char        txbuff[kAirSendSize];  //发送数据缓存
@@ -47,6 +47,7 @@ typedef struct
 	uint16_t    rxcount;        //接收的数量
     bool        rx_flag;        //接收完毕标志
 }uart_message;
+
 
 
 void Uart1_Send(uint8_t data);

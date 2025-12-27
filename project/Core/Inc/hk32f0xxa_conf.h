@@ -29,7 +29,7 @@ extern "C" {
 #define SYSCLK_SRC_LSI          0x8
 #define SYSCLK_SRC_LSE          0x9
 /* select sysclk source here */
-#define SYSCLK_SOURCE    SYSCLK_SRC_HSI8M
+#define SYSCLK_SOURCE    SYSCLK_SRC_HSE
 
 // #define VECT_TAB_SRAM
 #define VECT_TAB_OFFSET  0x0 /*!< Vector Table base offset field. This value must be a multiple of 0x200. */

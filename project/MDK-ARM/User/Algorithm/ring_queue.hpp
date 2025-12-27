@@ -38,7 +38,7 @@ public:
         if(!data)       return false;
         if(isEmpty())   return false;
         //³ö¶Ó
-       memcpy(data, &buffer[out_], sizeof(T));
+        memcpy(data, &buffer[out_], sizeof(T));
         // *data = buffer[out_];
         out_ = (++out_)%Capacity;
         length_--;

@@ -16,6 +16,11 @@
 #include <cstdio>
 #include "variables.hpp"
 #include "handler.hpp"
+#include "string_algorithm.hpp"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 //at_fsm_t fsm_cmd_buffer[] =
 //{
@@ -66,13 +71,16 @@ void A7680C::SetCmdAck(const char *cmd,const char *ack, uint32_t timeout, uint8_
 void A7680C::SendCmd(void)
 {
     memset(a7680c_uart_msg.rxbuff,0,sizeof(a7680c_uart_msg.rxbuff));
+    a7680c_uart_msg.rxcount = 0;
 //    queue_.front(&fsm_);
 //12.22更新,需要在IDLE之前更新句柄
 //    queue_.pop(&fsm_);
-    while(*fsm_.cmd !='\0')
-	{
-		Uart2_Send(*fsm_.cmd++);
-	}
+    log_info("sendcmd %s",fsm_.cmd);
+    Uart2_print((uint8_t*)fsm_.cmd);
+//    while(*fsm_.cmd !='\0')
+//	{
+//		Uart2_Send(*fsm_.cmd++);
+//	}
 }
 
 
@@ -126,9 +134,13 @@ at_state_e A7680C::GetFsmState_()
  */
 bool A7680C::CheckFsmAck()
 {
-    if(strstr(a7680c_uart_msg.rxbuff, fsm_.ack) == nullptr)
+    if(Strstr((char*)a7680c_uart_msg.rxbuff, (char*)fsm_.ack) == nullptr)
         return false;
     else
         return true;
 }
 
+
+#ifdef __cplusplus
+}
+#endif

@@ -36,11 +36,13 @@
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_lpuart.h \
   ..\Drivers\HK32F0xxA_StdPeriphDriver\inc\hk32f0xxa_comp.h \
   User\System\config.hpp User\System\variables.hpp ..\Core\Inc\adc.hpp \
-  ..\Core\Inc\can.hpp ..\Core\Inc\tim.hpp User\Algorithm\algorithm.hpp \
-  User\Application\batVolt.hpp User\Application\periph_control.hpp \
-  User\Application\low_power.hpp User\Bsp\bsp_adc.hpp \
-  User\Bsp\bsp_can.hpp User\Bsp\bsp_rtc.hpp User\Application\bms.hpp \
-  User\Application\rgb.hpp User\System\MillisTaskManager.h \
-  User\System\System.hpp User\System\state_machine.hpp \
-  User\Task\AllTasks.hpp User\Task\main_task.hpp \
-  User\Application\handler.hpp
+  ..\Core\Inc\can.hpp ..\Core\Inc\tim.hpp ..\Core\Inc\usart.hpp \
+  ..\Core\Inc\iic.hpp ..\Core\Inc\gpio.hpp ..\Core\Inc\dma.hpp \
+  User\Algorithm\algorithm.hpp User\Application\batVolt.hpp \
+  User\Application\periph_control.hpp User\Application\low_power.hpp \
+  User\Bsp\bsp_adc.hpp User\Bsp\bsp_can.hpp User\Bsp\bsp_rtc.hpp \
+  User\Application\bms.hpp User\Application\rgb.hpp \
+  User\System\MillisTaskManager.h User\System\System.hpp \
+  User\System\state_machine.hpp User\Task\AllTasks.hpp \
+  User\Task\main_task.hpp User\Application\handler.hpp \
+  User\Algorithm\string_algorithm.hpp

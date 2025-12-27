@@ -91,7 +91,7 @@ void TIM6_Init(void)
     
     NVIC_InitTypeDef NVIC_InitStruct;
     NVIC_InitStruct.NVIC_IRQChannel = TIM6_IRQn;  // TIM6中断通道
-    NVIC_InitStruct.NVIC_IRQChannelPriority = 3;       // 子优先级
+    NVIC_InitStruct.NVIC_IRQChannelPriority = 0;       // 子优先级
     NVIC_InitStruct.NVIC_IRQChannelCmd = ENABLE;          // 使能中断
     NVIC_Init(&NVIC_InitStruct);                    
     
