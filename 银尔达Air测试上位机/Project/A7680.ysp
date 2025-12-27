@@ -2,7 +2,7 @@
   "Send_Width": 35,
   "Name_Width": 242,
   "Format_Width": 81,
-  "Data_Width": 410,
+  "Data_Width": 725,
   "Delay_Width": 74,
   "Active_Width": 42,
   "Add_Width": 42,
@@ -182,6 +182,97 @@
       "Name": "",
       "Format": "String",
       "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": ">>>>>>>TTS相关-------",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": null,
+      "Format": "String",
+      "Data": "AT+CTTS=?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "USC2格式输出（准确）",
+      "Format": "String",
+      "Data": "AT+CTTS=1,\"6B228FCE4F7F75288BED97F3540862107CFB7EDF\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "USC2格式输出(大端)",
+      "Format": "String",
+      "Data": "AT+CTTS=1,\"8F93516589818F6C636276844E2D6587\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "AT+CTTS=1,\"4F60597D4F60597D\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "(难道说)",
+      "Format": "String",
+      "Data": "AT+CTTS=2,\"难道说?\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "(难道说)",
+      "Format": "String",
+      "Data": "AT+CTTS=1,\"96BE90538BF4\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "ASCII格式输出",
+      "Format": "String",
+      "Data": "AT+CTTS=2,\"去朝<pinyin=chao2>阳，看朝<pinyin=zhao1>\"\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "",
+      "Format": "String",
+      "Data": "",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "-------TTS设置-------",
+      "Format": "String",
+      "Data": null,
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询输入范围",
+      "Format": "String",
+      "Data": "AT+CTTSPARAM=?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "查询目前配置",
+      "Format": "String",
+      "Data": "AT+CTTSPARAM?\\r",
+      "Delay": 0,
+      "Active": false
+    },
+    {
+      "Name": "--配置TTS--",
+      "Format": "String",
+      "Data": "AT+CTTSPARAM=7,2,0,1,1,0\\r",
       "Delay": 0,
       "Active": false
     }
